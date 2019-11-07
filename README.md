@@ -1,5 +1,5 @@
 # FanFenix
-Reforma de la página web del equipo cpl madrid. La página actual es www.cplmadrid.com
+Reforma de la página web del equipo cpl madrid. La página actual es [Fénix](www.cplmadrid.com)
 
 El proyecto consitirá en una parte frontend y una parte backend
 
@@ -23,4 +23,4 @@ Para este proyecto los lenguajes usados serán
 07/11/2019
 
 ### Creadores
-[Pheithar](https://github.com/pheithar) y [axmpm](https://github.com/axmpm)
+@[Pheithar](https://github.com/pheithar) y @[apmpm](https://github.com/apmpm)
