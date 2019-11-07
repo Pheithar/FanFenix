@@ -1,0 +1,16 @@
+body{
+  background-color: #eeeeee;
+}
+
+header{
+    background-color: #e6432f;
+}
+
+#logoTitleHeader{
+  display: flex;
+  width: auto;
+}
+#logoTitleHeader img{
+  width: 10%;
+  height: auto;
+}
