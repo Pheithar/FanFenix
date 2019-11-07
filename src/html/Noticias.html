@@ -14,9 +14,9 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-    <!-- javascript
-    <script src="javascript/script.js"></script>
-    -->
+    <!-- javascript   -->
+    <script src="../script/header_footer.js"></script>
+
 
     <!--diseño responsive-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,36 +25,41 @@
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </head>
   <body>
-    <header>
-      <p>Iniciar Sesión</p>
+    <header id="header">
       <div id="logoTitleHeader">
-        <img src="../images/Fenix.png" alt="Logo fénix">
+        <a id="iniciarSesion" class="textoSeleccionable" href="#">Iniciar Sesión</a>
+        <img src="images/Fenix.png" alt="Logo fénix" id="logoFenix">
         <h1 id="titleNav">CPL Madrid Fénix</h1>
       </div>
       <nav>
         <ul>
-          <li>Noticias</li>
-          <li>Temporada</li>
-          <ul>
-            <li>Clasificación</li>
-            <li>Calendarios</li>
-            <li>Ligas</li>
-            <li>Estadísticas</li>
-          </ul>
-          <li>Equipo</li>
-          <ul>
-            <li>Horarios</li>
-            <li>Media</li>
-          </ul>
-          <li>Patinaje</li>
-          <li>Sobre Nosotros</li>
-          <ul>
-            <li>Contacto</li>
-            <li>Club</li>
-          </ul>
+          <img src="images/Fenix.png" alt="Logo fénix" id="logoFenixShrink">
+          <li><a href="#" class="textoSeleccionable">Noticias</a></li>
+          <li><a href="#" class="textoSeleccionable">Temporada</a>
+            <ul>
+              <li><a href="#">Clasificación</a></li>
+              <li><a href="#">Calendarios</a></li>
+              <li><a href="#">Ligas</a></li>
+              <li><a href="#">Estadísticas</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="textoSeleccionable">Equipo</a>
+            <ul>
+              <li><a href="#">Horarios</a></li>
+              <li><a href="#">Media</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="textoSeleccionable">Patinaje</a></li>
+          <li><a href="#" class="textoSeleccionable">Sobre Nosotros</a>
+            <ul>
+              <li><a href="#">Contacto</a></li>
+              <li><a href="#">Club</a></li>
+            </ul>
+          </li>
         </ul>
       </nav>
     </header>
+
 
     <main>
       <article class="contenedorNoticia">
