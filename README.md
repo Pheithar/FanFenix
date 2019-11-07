@@ -14,4 +14,4 @@ El objetivo final es sustituir el sitio web actual por el nuevo diseño.
 07/11/2019
 
 ### Creadores
-@Pheithar @apmpm
+@[Pheithar](https://github.com/pheithar) @[apmpm](https://github.com/apmpm)
