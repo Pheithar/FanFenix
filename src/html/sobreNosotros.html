@@ -4,17 +4,19 @@
     <meta charset="utf-8">
     <title>CPLM Fénix</title>
 
-    <link rel="shortcut icon" href="images/hockeyMaskColor.png">
+    <link rel="shortcut icon" href="../images/hockeyMaskColor.png">
 
     <!--css-->
-    <link rel="stylesheet" type="text/css" href="style/header_footer.css">
+    <link rel="stylesheet" type="text/css" href="../style/header_footer.css">
+    <link rel="stylesheet" type="text/css" href="../style/noticias.css">
 
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-    <!-- javascript-->
-    <script src="script/header_footer.js"></script>
+    <!-- javascript   -->
+    <script src="../script/header_footer.js"></script>
+
 
     <!--diseño responsive-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,13 +28,13 @@
     <header id="header">
       <div id="logoTitleHeader">
         <a id="iniciarSesion" class="textoSeleccionable" href="#">Iniciar Sesión</a>
-        <img src="images/Fenix.png" alt="Logo fénix" id="logoFenix">
+        <img src="../images/Fenix.png" alt="Logo fénix" id="logoFenix">
         <h1 id="titleNav">CPL Madrid Fénix</h1>
       </div>
       <nav>
-        <img src="images/Fenix.png" alt="Logo fénix" id="logoFenixShrink">
         <ul>
-          <li><a href="html/Noticias.html" class="textoSeleccionable">Noticias</a></li>
+          <img src="../images/Fenix.png" alt="Logo fénix" id="logoFenixShrink">
+          <li><a href="#" class="textoSeleccionable">Noticias</a></li>
           <li><a href="#" class="textoSeleccionable">Temporada</a>
             <ul>
               <li><a href="#">Clasificación</a></li>
@@ -48,7 +50,7 @@
             </ul>
           </li>
           <li><a href="#" class="textoSeleccionable">Patinaje</a></li>
-          <li><a href="html/sobreNosotros.html" class="textoSeleccionable">Sobre Nosotros</a>
+          <li><a href="../html/sobreNosotros.html" class="textoSeleccionable opcionElegida">Sobre Nosotros</a>
             <ul>
               <li><a href="#">Contacto</a></li>
               <li><a href="#">Club</a></li>
@@ -58,34 +60,16 @@
       </nav>
     </header>
 
+
     <main>
-      <article class="">
-        Noticias principales
-      </article>
 
-      <article class="">
-        Noticias secundarias
-      </article>
+      <div class="contactoForm">
+        Formulario para contactar
+      </div>
 
-      <aside class="">
-        Calendario
-      </aside>
-
-      <aside class="">
-        Redes Sociales
-      </aside>
-
-      <aside class="">
-        Destacados
-      </aside>
-
-      <aside class="">
-        <!--Widget de Twitter-->
-        <a class="twitter-timeline" href="https://twitter.com/Fanfenix?ref_src=twsrc%5Etfw">
-          Tweets by Fanfenix
-        </a>
-      </aside>
-
+      <div class="clubInfo">
+        Tarjetas de info del club.
+      </div>
 
     </main>
 

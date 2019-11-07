@@ -30,11 +30,11 @@ header{
 
 .textoSeleccionable{
   padding-bottom: 10px;
-  border-bottom: 3px solid transparent;
+  border-bottom: 5px solid transparent;
 }
 
-.textoSeleccionable:hover{
-  border-bottom: 3px solid #001619;
+.textoSeleccionable:hover, .opcionElegida{
+  border-bottom: 5px solid #001619;
 }
 
 #logoTitleHeader{
@@ -127,4 +127,5 @@ nav ul li:hover > ul {
 
 main{
   margin-top: 200px;
+  background-color: #eeeeee;
 }

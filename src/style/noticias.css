@@ -1,11 +1,46 @@
 .contenedorNoticia{
-  background-color: #C9C5BA;
+  width: 70%;
+  min-height: 150px;
+  margin-left : auto;
+  margin-right : auto;
+
 }
-.contenedorNoticia h1{
+
+.contenedorNoticia .titleContenedorNoticia{
+/*
+  background-color : rgba(235,138,143, 1);
+  */
+  background-color : #eeeeee;
+  text-align: center;
+  background-image: url("../images/Fenix.png");
+  min-height: 100px;
+}
+
+.contenedorNoticia .titleContenedorNoticia h1{
   font-size: 20pt;
+  background-color : rgba(235,138,143, 0.85);
+  /*
+  background-color: rgba(201,197,186, 0.9);
+  */
+  color: #001619;
 }
 
 .containerNews .fotoPrincipalNoticia{
-  width: 100px;
+  width: 100%;
   height: auto;
+}
+
+.contenidoNoticia{
+  /*
+  background-color : rgba(235,138,143, 1);
+  */
+  background-color: rgb(201,197,186);
+  border-radius: 0px 0px 20px 20px;
+}
+
+.contenidoNoticia p{
+  font-size: 13pt;
+  color: #001619;
+  padding:  10px;
+  margin: 0;
 }

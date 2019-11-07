@@ -1,8 +1,8 @@
 Rojo: e6432f
-Rojo claro: eb8a8f
+Rojo claro: eb8a8f rgba(235,138,143, 0.8)
 Blanco sucio: eeeeee
 Negro azulado: 001619
-Blanco para detalles: C9C5BA
+Blanco para detalles: C9C5BA  rgba(201,197,186, 0.8)
 Rojo2: bb4936
 Rojo3: d83f2c
 Rojo4: 84271d
