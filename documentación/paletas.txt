@@ -3,3 +3,7 @@ Rojo claro: eb8a8f
 Blanco sucio: eeeeee
 Negro azulado: 001619
 Blanco para detalles: C9C5BA
+Rojo2: bb4936
+Rojo3: d83f2c
+Rojo4: 84271d
+Rojo que vale: ac271d
