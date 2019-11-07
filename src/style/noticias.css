@@ -1,0 +1,11 @@
+.contenedorNoticia{
+  background-color: #C9C5BA;
+}
+.contenedorNoticia h1{
+  font-size: 20pt;
+}
+
+.containerNews .fotoPrincipalNoticia{
+  width: 100px;
+  height: auto;
+}
