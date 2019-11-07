@@ -1,0 +1,5 @@
+Rojo: e6432f
+Rojo claro: eb8a8f
+Blanco sucio: eeeeee
+Negro azulado: 001619
+Blanco para detalles: C9C5BA
