@@ -23,4 +23,4 @@ Para este proyecto los lenguajes usados serán
 07/11/2019
 
 ### Creadores
-@[Pheithar](https://github.com/pheithar) y @[apmpm](https://github.com/apmpm)
+@[Pheithar](https://github.com/pheithar) y @[axpm](https://github.com/axpm)
