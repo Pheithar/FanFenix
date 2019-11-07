@@ -9,9 +9,9 @@ La entrega de la asigantura consiste únicamente en la parte de frontEnd del sit
 
 El objetivo final es sustituir el sitio web actual por el nuevo diseño.
 
-## Fecha Inicio:
+### Fecha Inicio:
 
 07/11/2019
 
 ### Creadores
-@[Pheithar](https://github.com/pheithar) @[apmpm](https://github.com/apmpm)
+[Pheithar](https://github.com/pheithar) y [apmpm](https://github.com/apmpm)
