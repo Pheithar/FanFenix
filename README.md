@@ -1,5 +1,5 @@
 # FanFenix
-Reforma de la página web del equipo cpl madrid. La página actual es www.cplmadrid.com
+Reforma de la página web del equipo cpl madrid. La página actual es [Fénix](www.cplmadrid.com)
 
 El proyecto consitirá en una parte frontend y una parte backend
 
