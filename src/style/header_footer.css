@@ -15,8 +15,9 @@ header{
     color: #eeeeee;
     display: inline-block;
     width: 100%;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
 }
 
 #iniciarSesion{
@@ -41,17 +42,28 @@ header{
   display: flex;
   width: auto;
 }
-#logoTitleHeader img{
+
+#logoFenix{
   width: 10%;
   height: auto;
+  transition: 0.4s;
 }
-nav{
-  position: sticky;
+
+
+#titleNav{
+  transition: 0.2s;
 }
+
 nav ul{
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+#logoFenixShrink{
+  width: 20%;
+  height: auto;
+  transition: 0.4s;
 }
 
 nav ul li{
@@ -105,4 +117,8 @@ nav ul ul a {
 
 nav ul li:hover > ul {
   display:block;
+}
+
+main{
+  margin-top: 200px;
 }

@@ -13,9 +13,8 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-    <!-- javascript
-    <script src="javascript/script.js"></script>
-    -->
+    <!-- javascript-->
+    <script src="script/header_footer.js"></script>
 
     <!--diseño responsive-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,14 +23,15 @@
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </head>
   <body>
-    <header>
+    <header id="header">
       <div id="logoTitleHeader">
         <a id="iniciarSesion" class="textoSeleccionable" href="#">Iniciar Sesión</a>
-        <img src="images/Fenix.png" alt="Logo fénix">
+        <img src="images/Fenix.png" alt="Logo fénix" id="logoFenix">
         <h1 id="titleNav">CPL Madrid Fénix</h1>
       </div>
       <nav>
         <ul>
+          <img src="images/Fenix.png" alt="Logo fénix" id="logoFenixShrink">
           <li><a href="#" class="textoSeleccionable">Noticias</a></li>
           <li><a href="#" class="textoSeleccionable">Temporada</a>
             <ul>
