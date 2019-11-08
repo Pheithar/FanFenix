@@ -46,7 +46,7 @@ header{
 }
 
 #logoFenix{
-  width: 10%;
+  width: 200px;
   height: auto;
   transition: 0.4s;
 }
@@ -54,10 +54,8 @@ header{
 
 #titleNav{
   transition: 0.2s;
-}
-
-nav{
-  display: block ruby;
+  padding-top: 65px;
+  padding-left: 20px;
 }
 
 nav ul{
