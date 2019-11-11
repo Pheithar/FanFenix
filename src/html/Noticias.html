@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>CPLM Fénix</title>
 
-    <link rel="shortcut icon" href="../images/hockeyMaskColor.png">
+    <link rel="shortcut icon" href="../images/Fenix.png">
 
     <!--css-->
     <link rel="stylesheet" type="text/css" href="../style/header_footer.css">
@@ -16,7 +16,7 @@
 
     <!-- javascript   -->
     <script src="../script/header_footer.js"></script>
-
+    <script src="../script/sobreNosotros.js"></script>
 
     <!--diseño responsive-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,19 +28,23 @@
     <header id="header">
       <div id="logoTitleHeader">
         <a id="iniciarSesion" class="textoSeleccionable" href="#">Iniciar Sesión</a>
-        <img src="../images/Fenix.png" alt="Logo fénix" id="logoFenix">
+        <a href="../index.html" id = "logoFenixEnlace" >
+          <img src="../images/Fenix.png" alt="Logo fénix" id = "logoFenix">
+        </a>
         <h1 id="titleNav">CPL Madrid Fénix</h1>
       </div>
       <nav>
-        <ul>
+        <a href="../index.html">
           <img src="../images/Fenix.png" alt="Logo fénix" id="logoFenixShrink">
-          <li><a href="#" class="textoSeleccionable opcionElegida">Noticias</a></li>
-          <li><a href="#" class="textoSeleccionable">Temporada</a>
+        </a>
+        <ul>
+          <li><a href="Noticias.html" class="textoSeleccionable opcionElegida">Noticias</a></li>
+          <li><a href="temporada/temporada.html" class="textoSeleccionable">Temporada</a>
             <ul>
-              <li><a href="#">Clasificación</a></li>
-              <li><a href="#">Calendarios</a></li>
-              <li><a href="#">Ligas</a></li>
-              <li><a href="#">Estadísticas</a></li>
+              <li><a href="temporada/clasificacion.html">Clasificación</a></li>
+              <li><a href="temporada/calendarios.html">Calendarios</a></li>
+              <li><a href="temporada/ligas.html">Ligas</a></li>
+              <li><a href="temporada/estadisticas.html">Estadísticas</a></li>
             </ul>
           </li>
           <li><a href="#" class="textoSeleccionable">Equipo</a>
@@ -49,11 +53,11 @@
               <li><a href="#">Media</a></li>
             </ul>
           </li>
-          <li><a href="#" class="textoSeleccionable">Patinaje</a></li>
-          <li><a href="../html/sobreNosotros.html" class="textoSeleccionable">Sobre Nosotros</a>
+          <li><a href="#" class="textoSeleccionable" >Patinaje</a></li>
+          <li><a href="sobreNosotros/sobreNosotros.html" class="textoSeleccionable">Sobre Nosotros</a>
             <ul>
-              <li><a href="#">Contacto</a></li>
-              <li><a href="#">Club</a></li>
+              <li><a href="sobreNosotros/contacto.html" onclick="return sobreNosotros();">Contacto</a></li>
+              <li><a href="sobreNosotros/club.html" onclick="return sobreNosotros();">Club</a></li>
             </ul>
           </li>
         </ul>
