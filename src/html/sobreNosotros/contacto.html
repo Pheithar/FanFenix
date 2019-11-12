@@ -18,6 +18,7 @@
     <script src="../../script/header_footer.js"></script>
     <script src="../../script/sobreNosotros.js"></script>
 
+
     <!--boostrap-->
       <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -81,45 +82,49 @@
       <!--Contacto-->
       <!--FORM1-->
       <div class="contenidoAbout" id = "contacto">
-        <form class=>
+        <form id="contactForm" >
+        <!-- method="post" action="../../php/form-to-email.php"> -->
           <!--Nombre-->
           <div class="row">
-             <label class="" for="usr">Datos:</label> <br>
-              <input type="text" class="" id="usr" placeholder="Introduzca su nombre" size="35" required="true" aria-describedby="emailHelp">
+             <label for="usr">Datos:</label> <br>
+              <input type="text" id="name" name = "name" placeholder="Introduzca su nombre" size="35" required="true">
            </div>
           <!--Email para contactar-->
           <div class="row">
              <label class="" for="email">Correo:</label> <br>
-             <input type="email" class="" id="email" placeholder="Introduzca su email" size="35" required="true" aria-describedby="emailHelp">
+             <input type="email" id="email" name = "email" placeholder="Introduzca su email" size="35" required="true" aria-describedby="emailHelp">
               <span class="help-block">Los usamos para ponernos en contacto contigo.</span>
            </div>
 
           <!--Elegir opciones-->
           <div class="row">
-            <label for="exampleFormControlSelect1">Motivo</label> <br>
-            <select class="" id="exampleFormControlSelect1">
-              <option>Incidencia1</option>
-              <option>Incidencia2</option>
-              <option>Incidencia3</option>
-              <option>Incidencia4</option>
-              <option>Incidencia5</option>
+            <label for="motivo">Motivo</label> <br>
+            <select class="" id="motivo" name = "motivo">
+              <option value = "Indicidencia1">Incidencia1</option>
+              <option value = "Indicidencia2">Incidencia2</option>
+              <option value = "Indicidencia3">Incidencia3</option>
+              <option value = "Indicidencia4">Incidencia4</option>
+              <option value = "Indicidencia5">Incidencia5</option>
             </select>
           </div>
 
           <!--Texto para enviar-->
           <div class="">
-            <label for="exampleFormControlTextarea1">Exponga la incidencia</label><br>
-            <textarea id="incidencia" rows="8" cols="80"></textarea>
+            <label for="message">Exponga la incidencia</label><br>
+            <textarea id="incidencia" name="incidencia" rows="8" cols="80" required></textarea>
           </div>
           <!--Botón enviar-->
-          <div class="">
-            <button type="submit" class="myButton btn">Enviar</button>
+          <div>
+            <button type="submit" id="submitFormContact" class="myButton btn" >Enviar</button>
           </div>
 
         </form>
 
       </div>
 
+
+
+      <body>
 
 
     </main>

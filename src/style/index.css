@@ -43,28 +43,23 @@ overflow: hidden;
   padding : 0 5vw 0 5vw;
 }
 
-.grid-container {
-  display: grid;
-}
+.news { grid-area: news; }
+.side { grid-area: right; }
+.twitterWidget{ grid-area: right;}
+
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header header'
-    'main main main main right right'
-    'main main main main right right'
-    'footer footer footer footer footer footer';
+    'news news news news right right';
+    'news news news news right right';
   grid-gap: 10px;
   background-color: #2196F3;
   padding: 10px;
 }
-.grid-item{
-  width: 40%;
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
 }
-.item1 {
-  grid-area: header;
- }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
