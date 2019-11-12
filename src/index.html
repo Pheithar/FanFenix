@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <title>CPLM Fénix</title>
 
-    <link rel="shortcut icon" href="images/hockeyMaskColor.png">
+    <link rel="shortcut icon" href="images/Fenix.png">
 
     <!--css-->
     <link rel="stylesheet" type="text/css" href="style/header_footer.css">
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <link rel="stylesheet" type="text/css" href="style/sobreNosotros.css">
 
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -15,6 +17,17 @@
 
     <!-- javascript-->
     <script src="script/header_footer.js"></script>
+    <script src="script/index.js"></script>
+
+    <!--boostrap-->
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
     <!--diseño responsive-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,82 +37,242 @@
   </head>
   <body>
     <header id="header">
-      <div id="logoTitleHeader">
-        <a id="iniciarSesion" class="textoSeleccionable" href="#">Iniciar Sesión</a>
-        <a href="index.html" id = "logoFenixEnlace" >
-          <img src="images/Fenix.png" alt="Logo fénix" id = "logoFenix">
-        </a>
-        <h1 id="titleNav">CPL Madrid Fénix</h1>
-      </div>
-      <nav>
-        <a href="index.html">
-          <img src="images/Fenix.png" alt="Logo fénix" id="logoFenixShrink">
-        </a>
-        <ul>
-          <li><a href="html/Noticias.html" class="textoSeleccionable">Noticias</a></li>
-          <li><a href="#" class="textoSeleccionable">Temporada</a>
-            <ul>
-              <li><a href="#">Clasificación</a></li>
-              <li><a href="#">Calendarios</a></li>
-              <li><a href="#">Ligas</a></li>
-              <li><a href="#">Estadísticas</a></li>
-            </ul>
-          </li>
-          <li><a href="#" class="textoSeleccionable">Equipo</a>
-            <ul>
-              <li><a href="#">Horarios</a></li>
-              <li><a href="#">Media</a></li>
-            </ul>
-          </li>
-          <li><a href="#" class="textoSeleccionable">Patinaje</a></li>
-          <li><a href="html/sobreNosotros.html" class="textoSeleccionable">Sobre Nosotros</a>
-            <ul>
-              <li><a href="#">Contacto</a></li>
-              <li><a href="#">Club</a></li>
-            </ul>
-          </li>
-        </ul>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html" id = "logoFenixEnlace" >
+              <img src="images/Fenix.png" alt="Logo fénix" >
+              CPL Madrid Fénix
+            </a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="html/Noticias.html" class="textoSeleccionable">Noticias</a></li>
+            <li><a href="html/temporada/temporada.html" class="textoSeleccionable">Temporada</a>
+              <ul>
+                <li><a href="html/temporada/clasificacion.html">Clasificación</a></li>
+                <li><a href="html/temporada/calendarios.html">Calendarios</a></li>
+                <li><a href="html/temporada/ligas.html">Ligas</a></li>
+                <li><a href="html/temporada/estadisticas.html">Estadísticas</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="textoSeleccionable">Equipo</a>
+              <ul>
+                <li><a href="#">Horarios</a></li>
+                <li><a href="#">Media</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="textoSeleccionable" >Patinaje</a></li>
+            <li><a href="html/sobreNosotros/sobreNosotros.html" class="textoSeleccionable">Sobre Nosotros</a>
+              <ul>
+                <li><a href="html/sobreNosotros/contacto.html" onclick="return sobreNosotros();">Contacto</a></li>
+                <li><a href="html/sobreNosotros/club.html" onclick="return sobreNosotros();">Club</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Inciar Sesión</a></li>
+          </ul>
+        </div>
       </nav>
+
+
     </header>
 
     <main>
-      <article class="">
-        Noticias principales
-      </article>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8" style="background-color:yellow;">
+            <div class="row">
+              <!--ClubInfo1-->
+              <div class="infoContenedor">
+                <div class="titleContenedorNoticia">
+                  <h1 class="tituloNoticia"> NOTICIAS PRINCIPALES</h1>
+                </div>
+                <div class="contenidoNoticia">
+                  <p>
+                    EL DISEÑO DEBE CAMBIAR PARA ESTA COSA. TENDRÁ QUE SER LA COSA ESA DE
+                    HACER UN ESTO DE GIRAR NOTICIAS
+                  </p>
+                </div>
+              </div>
+            </div><!--row-->
+            <div class="row">
+              <div class="infoContenedor">
+                <div class="titleContenedorNoticia">
+                  <h1 class="tituloNoticia"> ¿Quienes somos? </h1>
+                </div>
+                <div class="contenidoNoticia">
+                  <p>Somos un equipo joven que practica Hockey sobre patines en Línea y
+                     Patinaje en Madrid. Tenemos escuelas en los barrios de Moratalaz, Carabanchel,
+                     Vicálvaro, Vallecas Villa, San Blas, Salamanca.Tenemos equipos en todas las
+                     categorías de la liga regional de Hockey línea de la Comunidad de Madrid.
+                     Nuestros equipos sénior juegan en categoría nacional. Nuestro primer equipo
+                     femenino juega en la Liga Oro, y nuestro primer equipo masculino, juega en Primera
+                     División Plata. Y nuestros pequeños se lo pasan de miedo patinando y jugando al hockey.
+                     Todos los años organizamos una liga entre los equipos de las diferentes escuelas,
+                     desde los pequeños de 6 años a los pequeños de 50 participan en sus respectivas categorías.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3" style="background-color:pink;">
 
-      <article class="">
-        Noticias secundarias
-      </article>
+                <div class="row">
 
-      <aside class="">
-        Calendario
-      </aside>
+                <aside id="calendar">
+                <iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=2&amp;bgcolor=%23eb8a8f&amp;ctz=Europe%2FMadrid&amp;src=NWlmOWk4NWtpZzloN2g4ZDE2cGQwaDFnbmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23AA5A00&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA"
+                    style="border-width:0" width="300" height="500" frameborder="0" scrolling="no"></iframe>
+                </aside>
+              </div>
 
-      <aside class="">
-        Redes Sociales
-      </aside>
+              <div class="row">
+                <div class="twitterWidget">
+                  <!--Widget de Twitter-->
+                  <a class="twitter-timeline" data-chrome="nofooter noborders" data-aria-polite="assertive" data-width="300"
+                  data-height="300" href="https://twitter.com/Fanfenix?ref_src=twsrc%5Etfw">
+                  </a>
+                </div>
+              </div>
 
-      <aside class="">
-        Destacados
-      </aside>
+                <div class=row>
+                  Redes Sociales
+                </div>
 
-      <aside class="">
-        <!--Widget de Twitter-->
-        <a class="twitter-timeline" href="https://twitter.com/Fanfenix?ref_src=twsrc%5Etfw">
-          Tweets by Fanfenix
-        </a>
-      </aside>
+                <div class="row">
+                  Destacados
+                </div>
+
+          </div>
+        </div>
+      </div>
+
+
 
 
     </main>
 
-    <footer>
-      <ul>
-        <li><img src="" alt="Redes Sociales"></li>
-      </ul>
-      <ul>
-        <li><a href="#">Enlace al código</a></li>
-      </ul>
-    </footer>
+    <!-- Footer -->
+  <footer class="page-footer font-small stylish-color-dark pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
+          <p>Here you can use filas and columns to organize your footer content. Lorem ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p>
+
+        </div>
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </div>
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </div>
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <hr>
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a href="https://www.facebook.com/cplmadrid" target="_blank" class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> icono FB</i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.twitter.com/Fanfenix" target="_blank" class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> icono TW </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="https://github.com/Pheithar/FanFenix" target="_blank">Github</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+
   </body>
 </html>

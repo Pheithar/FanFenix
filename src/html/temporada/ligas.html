@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CPLM Fénix</title>
+
+    <link rel="shortcut icon" href="../../images/Fenix.png">
+
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="../../style/header_footer.css">
+    <link rel="stylesheet" type="text/css" href="../../style/sobreNosotros.css">
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- javascript   -->
+    <script src="../../script/header_footer.js"></script>
+    <script src="../../script/sobreNosotros.js"></script>
+
+    <!--boostrap-->
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+    <!--diseño responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Widget twitter--->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div id="logoTitleHeader">
+        <a id="iniciarSesion" class="textoSeleccionable" href="#">Iniciar Sesión</a>
+        <a href="../../index.html" id = "logoFenixEnlace" >
+          <img src="../../images/Fenix.png" alt="Logo fénix" id = "logoFenix">
+        </a>
+        <h1 id="titleNav">CPL Madrid Fénix</h1>
+      </div>
+      <nav>
+        <a href="../../index.html">
+          <img src="../../images/Fenix.png" alt="Logo fénix" id="logoFenixShrink">
+        </a>
+        <ul>
+          <li><a href="../Noticias.html" class="textoSeleccionable">Noticias</a></li>
+          <li><a href="temporada.html" class="textoSeleccionable opcionElegida">Temporada</a>
+            <ul>
+              <li><a href="clasificacion.html">Clasificación</a></li>
+              <li><a href="calendarios.html">Calendarios</a></li>
+              <li><a href="ligas.html">Ligas</a></li>
+              <li><a href="estadisticas.html">Estadísticas</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="textoSeleccionable">Equipo</a>
+            <ul>
+              <li><a href="#">Horarios</a></li>
+              <li><a href="#">Media</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="textoSeleccionable">Patinaje</a></li>
+          <li><a href="../sobreNosotros/sobreNosotros.html" class="textoSeleccionable ">Sobre Nosotros</a>
+            <ul>
+              <li><a href="../sobreNosotros/contacto.html" onclick="return sobreNosotros();">Contacto</a></li>
+              <li><a href="../sobreNosotros/club.html" onclick="return sobreNosotros();">Club</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <main>
+      <!--Contacto-->
+      <!--FORM1-->
+      <div class="contenidoAbout" id = "contacto">
+        <form class="form-horizontal" >
+          <!--Nombre-->
+          <div class="form-group">
+            <label for="usr">Name</label>
+            <input type="text" class="form-control" id="usr">
+          </div>
+          <!--Email para contactar-->
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="Enter email" required="true" aria-describedby="emailHelp">
+            </div>
+            <small id="emailHelp">Lo usaremos para contactar contigo.</small>
+          </div>
+
+          <!--Elegir opciones-->
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Motivo</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Incidencia1</option>
+              <option>Incidencia2</option>
+              <option>Incidencia3</option>
+              <option>Incidencia4</option>
+              <option>Incidencia5</option>
+            </select>
+          </div>
+
+          <!--Texto para enviar-->
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Expon el motivo de la incidencia</label>
+            <textarea class="form-control col-xs-4" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <!--Botón enviar-->
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="myButton btn">Enviar</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+
+
+
+    </main>
+
+    <footer>
+      <ul>
+        <li><img src="" alt="Redes Sociales"></li>
+      </ul>
+      <ul>
+        <li><a href="#">Enlace al código</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

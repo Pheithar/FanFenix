@@ -6,7 +6,7 @@ ul{
   list-style: none;
   list-style-type: none;
 }
-a{
+a a:hover{
   text-decoration: none;
   color: inherit;
 }
@@ -130,6 +130,29 @@ nav ul li:hover > ul {
 }
 
 main{
-  margin-top: 18%;
+/*
+margin-top: 30vh;
+*/
   background-color: #eeeeee;
+  padding-top: 30vh;
+  padding-bottom: 20vh;
+}
+
+
+footer{
+  background-color: #ac271d;
+  color: white;
+}
+
+/*INDEX STUFF*/
+.column{
+  vertical-align: top;
+  display: inline-block;
+
+}
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
 }
