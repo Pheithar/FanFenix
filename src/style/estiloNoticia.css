@@ -1,0 +1,33 @@
+#noticiaGobal{
+  margin-left: 18%;
+  padding: 2%;
+  background-color: white;
+  margin-top: 2%;
+  width: 70%;
+  border: solid #ac271d 1px;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+#tituloNoticia{
+  font-size: 30pt;
+  color: #ac271d;
+  margin-bottom: 5px;
+  font-weight: bold;
+  /*Mejorar el titulo. Cmabiar letra, probar sin centrar si esta bien
+  probra colores de fondo, diferentes colores, poner en negrita...*/
+}
+
+#fecha{
+  font-size: 10pt;
+  color: #001619;
+  margin-bottom: 5px;
+  text-align: right;
+  margin-right: 5%;
+}
+
+#imagenPrincipalNoticia{
+  width: 70%;
+  height: auto;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CPLM Fénix</title>
+
+    <link rel="shortcut icon" href="../../images/hockeyMaskColor.png">
+
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="../../style/header_footer.css">
+    <link rel="stylesheet" type="text/css" href="../../style/noticias.css">
+
+    <!-- include libraries(jQuery, bootstrap) -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+
+    <!-- javascript   -->
+    <script src="../../script/header_footer.js"></script>
+    <script src="../../script/crearNoticia.js"></script>
+
+
+    <!--diseño responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Widget twitter--->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <!-- include summernote css/js -->
+    <link href="../../summernote/summernote.css" rel="stylesheet">
+    <script src="../../summernote/summernote.js"></script>
+
+
+  </head>
+  <body>
+    <header>
+      <div id="logoTitleHeader">
+        <a id="iniciarSesion" class="textoSeleccionable" href="#">Iniciar Sesión</a>
+        <a href="../../index.html" id = "logoFenixEnlace" >
+          <img src="../../images/Fenix.png" alt="Logo fénix" id = "logoFenix">
+        </a>
+        <h1 id="titleNav">CPL Madrid Fénix</h1>
+      </div>
+      <nav>
+        <a href="../../index.html">
+          <img src="../../images/Fenix.png" alt="Logo fénix" id="logoFenixShrink">
+        </a>
+        <ul>
+          <li><a href="#" class="textoSeleccionable opcionElegida">Noticias</a></li>
+          <li><a href="#" class="textoSeleccionable">Temporada</a>
+            <ul>
+              <li><a href="#">Clasificación</a></li>
+              <li><a href="#">Calendarios</a></li>
+              <li><a href="#">Ligas</a></li>
+              <li><a href="#">Estadísticas</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="textoSeleccionable">Equipo</a>
+            <ul>
+              <li><a href="#">Horarios</a></li>
+              <li><a href="#">Media</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="textoSeleccionable">Patinaje</a></li>
+          <li><a href="../../html/sobreNosotros.html" class="textoSeleccionable">Sobre Nosotros</a>
+            <ul>
+              <li><a href="#">Contacto</a></li>
+              <li><a href="#">Club</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article id="formulario">
+        <p id="crearNoticia">Crear nueva noticia</p>
+        <p>Insertar Título</p>
+        <input type="text" placeholder="Título" >
+        <p>Insertar Imagen Principal</p>
+        <input type="file"  accept="image/*" id="textImageNewBox" onchange="loadFile(event)">
+        <p></p>
+        <div id="summernote">Hello Summernote</div>
+        <button type="button" name="button" onclick="prueba()">Prueba</button>
+      </article>
+    </main>
+
+    <footer>
+      <ul>
+        <li><img src="" alt="Redes Sociales"></li>
+      </ul>
+      <ul>
+        <li><a href="#">Enlace al código</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
