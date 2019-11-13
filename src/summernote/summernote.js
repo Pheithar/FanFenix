@@ -7015,7 +7015,7 @@
               }
               $video = $$1('<iframe>')
                   .attr('frameborder', 0)
-                  .attr('src', '//www.youtube.com/embed/' + youtubeId + (start > 0 ? '?start=' + start : ''))
+                  .attr('src', 'https://www.youtube.com/embed/' + youtubeId + (start > 0 ? '?start=' + start : ''))
                   .attr('width', '640').attr('height', '360');
           }
           else if (igMatch && igMatch[0].length) {
