@@ -12,7 +12,7 @@ a a:hover{
 }
 
 header{
-  z-index: 10;
+  z-index: 10000;
   background-color: #ac271d;
   color: #eeeeee;
   display: inline-block;

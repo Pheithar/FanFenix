@@ -7016,7 +7016,7 @@
               $video = $$1('<iframe>')
                   .attr('frameborder', 0)
                   .attr('src', 'https://www.youtube.com/embed/' + youtubeId + (start > 0 ? '?start=' + start : ''))
-                  .attr('width', '640').attr('height', '360');
+                  .attr('width', '500').attr('height', '280');
           }
           else if (igMatch && igMatch[0].length) {
               $video = $$1('<iframe>')
