@@ -44,6 +44,7 @@ header{
   position: relative;
   display: flex;
   width: auto;
+  background-color: #363732;
 }
 
 #logoFenixEnlace{
@@ -74,6 +75,7 @@ nav ul{
   width: 4%;
   height: auto;
   transition: 0.4s;
+  float: left;
 }
 
 nav ul li{

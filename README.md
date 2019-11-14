@@ -17,6 +17,24 @@ Para este proyecto los lenguajes usados serán
 - CSS
 - JavaScript
 
+## Bibliotecas externas
+
+Para el desarrollo del sitio web usamos bibliotecas y frameworks externos
+
+- Bootstrap
+- Summernote
+
+# Modificaciones de las bibliotecas
+
+Hemos modificado alguna de estas bibliotecas para que se adecue a lo que queremos que haga:
+
+- Línea 7018 summernote/summernote.js:
+
+  .attr('src', 'https://www.youtube.com/embed/' + youtubeId + (start > 0 ? '?start=' + start : ''))
+
+  - Entre las líneas 155-178 comentadas bootstrap/bootstrap.css
+
+    Se refieren a las tag a para que no las modifique sin nuestro permiso
 
 ### Fecha Inicio:
 
