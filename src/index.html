@@ -37,45 +37,42 @@
   </head>
   <body>
     <header id="header">
-      <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="index.html" id = "logoFenixEnlace" >
-              <img src="images/Fenix.png" alt="Logo fénix" >
-              CPL Madrid Fénix
-            </a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li><a href="html/noticias/noticias.html" class="textoSeleccionable">Noticias</a></li>
-            <li><a href="html/temporada/temporada.html" class="textoSeleccionable">Temporada</a>
-              <ul>
-                <li><a href="html/temporada/clasificacion.html">Clasificación</a></li>
-                <li><a href="html/temporada/calendarios.html">Calendarios</a></li>
-                <li><a href="html/temporada/ligas.html">Ligas</a></li>
-                <li><a href="html/temporada/estadisticas.html">Estadísticas</a></li>
-              </ul>
-            </li>
-            <li><a href="#" class="textoSeleccionable">Equipo</a>
-              <ul>
-                <li><a href="#">Horarios</a></li>
-                <li><a href="#">Media</a></li>
-              </ul>
-            </li>
-            <li><a href="#" class="textoSeleccionable" >Patinaje</a></li>
-            <li><a href="html/sobreNosotros/sobreNosotros.html" class="textoSeleccionable">Sobre Nosotros</a>
-              <ul>
-                <li><a href="html/sobreNosotros/contacto.html" onclick="return sobreNosotros();">Contacto</a></li>
-                <li><a href="html/sobreNosotros/club.html" onclick="return sobreNosotros();">Club</a></li>
-              </ul>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Inciar Sesión</a></li>
-          </ul>
-        </div>
+      <div id="logoTitleHeader">
+        <a id="iniciarSesion" class="textoSeleccionable" href="#">Iniciar Sesión</a>
+        <a href="index.html" id = "logoFenixEnlace" >
+          <img src="images/Fenix.png" alt="Logo fénix" id = "logoFenix">
+        </a>
+        <h1 id="titleNav">CPL Madrid Fénix</h1>
+      </div>
+      <nav>
+        <a href="index.html">
+          <img src="images/Fenix.png" alt="Logo fénix" id="logoFenixShrink">
+        </a>
+        <ul>
+          <li><a href="html/Noticias.html" class="textoSeleccionable">Noticias</a></li>
+          <li><a href="html/temporada/temporada.html" class="textoSeleccionable">Temporada</a>
+            <ul>
+              <li><a href="html/temporada/clasificacion.html">Clasificación</a></li>
+              <li><a href="html/temporada/calendarios.html">Calendarios</a></li>
+              <li><a href="html/temporada/ligas.html">Ligas</a></li>
+              <li><a href="html/temporada/estadisticas.html">Estadísticas</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="textoSeleccionable">Equipo</a>
+            <ul>
+              <li><a href="#">Horarios</a></li>
+              <li><a href="#">Media</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="textoSeleccionable" >Patinaje</a></li>
+          <li><a href="html/sobreNosotros/sobreNosotros.html" class="textoSeleccionable">Sobre Nosotros</a>
+            <ul>
+              <li><a href="html/sobreNosotros/contacto.html" onclick="return sobreNosotros();">Contacto</a></li>
+              <li><a href="html/sobreNosotros/club.html" onclick="return sobreNosotros();">Club</a></li>
+            </ul>
+          </li>
+        </ul>
       </nav>
-
-
     </header>
 
     <main>
@@ -155,8 +152,37 @@
     <!-- Footer -->
   <footer class="page-footer font-small stylish-color-dark pt-4">
 
+
+
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+
+          <!-- Social buttons -->
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/cplmadrid" target="_blank" class="btn-floating btn-fb mx-1">
+                <i class="fab fa-facebook-f"> icono FB</i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.twitter.com/Fanfenix" target="_blank" class="btn-floating btn-tw mx-1">
+                <i class="fab fa-twitter"> icono TW </i>
+              </a>
+            </li>
+          </ul>
+          <!-- Social buttons -->
+
+        </div>
+
+      <div>
+      <!-- Grid row -->
+
+      <hr>
 
       <!-- Grid row -->
       <div class="row">
@@ -165,7 +191,7 @@
         <div class="col-md-4 mx-auto">
 
           <!-- Content -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Colaboradores</h5>
           <p>Here you can use filas and columns to organize your footer content. Lorem ipsum dolor sit amet,
             consectetur
             adipisicing elit.</p>
@@ -194,6 +220,66 @@
 
         </div>
 
+
+
+    </div>
+    <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <hr>
+
+
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="https://github.com/Pheithar/FanFenix" target="_blank">Github</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="page-footer font-small stylish-color-dark pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
+          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
         <!-- Grid column -->
         <div class="col-md-2 mx-auto">
 
@@ -216,6 +302,35 @@
           </ul>
 
         </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
 
         <!-- Grid column -->
         <div class="col-md-2 mx-auto">
@@ -249,20 +364,20 @@
 
     <hr>
 
-    <!-- Social buttons -->
-    <ul class="list-unstyled list-inline text-center">
+    <!-- Call to action -->
+    <ul class="list-unstyled list-inline text-center py-2">
       <li class="list-inline-item">
-        <a href="https://www.facebook.com/cplmadrid" target="_blank" class="btn-floating btn-fb mx-1">
-          <i class="fab fa-facebook-f"> icono FB</i>
-        </a>
+        <h5 class="mb-1">Register for free</h5>
       </li>
       <li class="list-inline-item">
-        <a href="https://www.twitter.com/Fanfenix" target="_blank" class="btn-floating btn-tw mx-1">
-          <i class="fab fa-twitter"> icono TW </i>
-        </a>
+        <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
       </li>
     </ul>
-    <!-- Social buttons -->
+    <!-- Call to action -->
+
+    <hr>
+
+
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2019 Copyright:
@@ -272,6 +387,32 @@
 
   </footer>
   <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   </body>
