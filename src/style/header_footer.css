@@ -26,10 +26,32 @@ header{
 
 #iniciarSesion{
   position: absolute;
-  top: 5px;
-  right: 5px;
+  top: 0.5%;
+  right: 1%;
   margin: 5px;
   color: #eeeeee;
+}
+
+#iniciarSesionPopUp{
+  position: absolute;
+  top: 30px;
+  right: 1%;
+  width: 280px;
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ac271d;
+  color: black;
+  text-align: center;
+  display: none;
+}
+
+#iniciarSesionPopUp .myButton{
+  background-color: #2e2e2e
+}
+
+#cerrarIniciarSesion{
+  text-decoration: underline;
 }
 
 .textoSeleccionable{

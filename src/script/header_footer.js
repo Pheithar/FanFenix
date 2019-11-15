@@ -12,3 +12,12 @@ function scrollFunction() {
     document.getElementById("logoFenixShrink").style.display = "none";
   }
 }
+
+//Mostrar el menu de opciones de iniciar sesion
+function showSignIn(){
+  $("#iniciarSesionPopUp").show("fast");
+}
+
+function hideSignIn(){
+  $("#iniciarSesionPopUp").hide("fast");
+}
