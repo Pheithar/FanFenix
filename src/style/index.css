@@ -63,3 +63,20 @@ overflow: hidden;
   text-align: center;
   padding: 20px 0;
 }
+
+/*------------------ Carousel -----------------------*/
+
+section.awSlider .carousel{
+  display:table;
+  z-index:2;
+  -moz-box-shadow: 0 0 4px #444;
+	-webkit-box-shadow: 0 0 4px #444;
+	box-shadow: 0 0 15px rgba(1,1,1,.5);
+}
+
+/*evitar que se pueda arrastrar la foto*/
+section.awSlider img{
+   pointer-events: none;
+}
+
+/*------------------ Carousel -----------------------*/
