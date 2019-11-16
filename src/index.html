@@ -38,12 +38,25 @@
   <body>
     <header id="header">
       <div id="logoTitleHeader">
-        <a id="iniciarSesion" class="textoSeleccionable" href="#">Iniciar Sesión</a>
+        <p id="iniciarSesion" class="textoSeleccionable" onclick="showSignIn();">Iniciar Sesión</p>
         <a href="index.html" id = "logoFenixEnlace" >
           <img src="images/Fenix.png" alt="Logo fénix" id = "logoFenix">
         </a>
         <h1 id="titleNav">CPL Madrid Fénix</h1>
       </div>
+
+      <div id="iniciarSesionPopUp">
+        <form>
+          <input type="text" placeholder="Usuario">
+          <p></p>
+          <input type="password" placeholder="Contraseña">
+          <p></p>
+          <input type="submit" value="Iniciar Sesión" class="myButton">
+          <p id="cerrarIniciarSesion" onclick="hideSignIn()"> Cancelar</p>
+        </form>
+
+      </div>
+
       <nav>
         <a href="index.html">
           <img src="images/Fenix.png" alt="Logo fénix" id="logoFenixShrink">
@@ -253,7 +266,7 @@
         </a>
       </span>
       <span>
-        <a href="https://www.youtube.com/user/FanfenixTV" target="_blank">
+        <a href="https://www.instagram.com/fanfenix/?hl=es" target="_blank">
           <img src="images/redesSociales/029-instagram.png" alt="logoInstagram">
         </a>
       </span>
@@ -315,33 +328,5 @@
 
   </footer>
   <!-- Footer -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </body>
 </html>
