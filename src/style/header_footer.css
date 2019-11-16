@@ -167,6 +167,11 @@ footer{
   background: #2e2e2e;
   text-align: center;
   margin: 0px;
+  color: #eeeeee;
+}
+
+.logos h4{
+  padding-top: 7px;
 }
 
 .logos img{

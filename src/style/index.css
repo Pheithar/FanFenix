@@ -40,7 +40,7 @@ overflow: hidden;
 }
 
 .row {
-  padding : 0 5vw 0 5vw;
+  padding : 0 3vw 0 3vw;
 }
 
 .news { grid-area: news; }
@@ -80,3 +80,8 @@ section.awSlider img{
 }
 
 /*------------------ Carousel -----------------------*/
+
+
+.noticiasSecundarias{
+  margin-top: 6vh;
+}
