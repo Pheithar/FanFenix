@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>CPLM Fénix</title>
+<head>
+  <meta charset="utf-8">
+  <title>CPLM Fénix</title>
 
-    <link rel="shortcut icon" href="../../images/hockeyMaskColor.png">
+  <link rel="shortcut icon" href="../../images/Fenix.png">
 
-    <!--css-->
-    <link rel="stylesheet" type="text/css" href="../../style/header_footer.css">
-    <link rel="stylesheet" type="text/css" href="../../style/estiloNoticia.css">
+  <!--css-->
+  <link rel="stylesheet" type="text/css" href="../../style/header_footer.css">
+  <link rel="stylesheet" type="text/css" href="../../style/estiloNoticias.css">
 
-    <!-- JQUERY -->
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-    <!-- javascript   -->
-    <script src="../../script/header_footer.js"></script>
-    <script src="../../script/noticias.js"></script>
+  <!-- javascript   -->
+  <script src="../../script/header_footer.js"></script>
+  <script src="../../script/sobreNosotros.js"></script>
+
+  <!--boostrap-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 
-    <!--diseño responsive-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Widget twitter--->
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </head>
+  <!--diseño responsive-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Widget twitter--->
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</head>
   <body>
     <header id="header">
       <div id="logoTitleHeader">
@@ -40,7 +51,7 @@
         </a>
         <ul>
           <li><a href="../noticias/noticias.html" class="textoSeleccionable opcionElegida">Noticias</a></li>
-          <li><a href="../temporada/temporada.html" class="textoSeleccionable">Temporada</a>
+          <li><a class="textoSeleccionable">Temporada</a>
             <ul>
               <li><a href="../temporada/clasificacion.html">Clasificación</a></li>
               <li><a href="../temporada/calendarios.html">Calendarios</a></li>
@@ -55,10 +66,10 @@
             </ul>
           </li>
           <li><a href="../patinaje/patinaje.html" class="textoSeleccionable ">Patinaje</a></li>
-          <li><a href="../sobreNosotros/sobreNosotros.html" class="textoSeleccionable">Sobre Nosotros</a>
+          <li><a class="textoSeleccionable">Sobre Nosotros</a>
             <ul>
-              <li><a href="../temporada/contacto.html" onclick="return sobreNosotros();">Contacto</a></li>
-              <li><a href="../temporada/club.html" onclick="return sobreNosotros();">Club</a></li>
+              <li><a href="../sobreNosotros/contacto.html" >Contacto</a></li>
+              <li><a href="../sobreNosotros/club.html" >Club</a></li>
             </ul>
           </li>
         </ul>
