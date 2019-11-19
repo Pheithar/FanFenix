@@ -25,6 +25,7 @@ header{
 }
 
 #iniciarSesion{
+  z-index: 10000;
   position: absolute;
   top: 0.5%;
   right: 1%;
@@ -193,6 +194,11 @@ footer{
   background: #2e2e2e;
   text-align: center;
   margin: 0px;
+  color: #eeeeee;
+}
+
+.logos h4{
+  padding-top: 7px;
 }
 
 .logos img{
