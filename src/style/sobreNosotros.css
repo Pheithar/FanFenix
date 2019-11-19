@@ -66,6 +66,11 @@
   background-color: white;
   padding: 0px 20px 20px 20px;
   margin: 15px 0px 15px 0px;
+  /*ponerlo con un borde negro y como por encima*/
+  z-index:2;
+  -moz-box-shadow: 0 0 4px #444;
+	-webkit-box-shadow: 0 0 4px #444;
+	box-shadow: 0 0 15px rgba(1,1,1,.5);
 }
 .titleContenedorNoticia{
   border-bottom: 1px solid #942911;
