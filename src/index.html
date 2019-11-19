@@ -19,6 +19,9 @@
     <script src="script/header_footer.js"></script>
     <script src="script/index.js"></script>
 
+    <!-- JSON -->
+    <script type="text/javascript" src="users/testUser.json"></script>
+
     <!--boostrap-->
       <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -51,7 +54,7 @@
           <p></p>
           <input type="password" placeholder="Contraseña">
           <p></p>
-          <input type="submit" value="Iniciar Sesión" class="myButton">
+          <button type="button" class="myButton" onclick="checkSubmit()">Iniciar Sesión</button>
           <p id="cerrarIniciarSesion" onclick="hideSignIn()"> Cancelar</p>
         </form>
 
