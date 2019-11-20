@@ -27,7 +27,8 @@ Para el desarrollo del sitio web usamos bibliotecas y frameworks externos
 # Modificaciones de las bibliotecas
 
 Hemos modificado alguna de estas bibliotecas para que se adecue a lo que queremos que haga:
-##summernote/summernote.js
+
+## summernote/summernote.js
 - Línea 7018:
 
 Original:
@@ -40,7 +41,7 @@ Nuevo
 + .attr('src', 'https://www.youtube.com/embed/' + youtubeId + (start > 0 ? '?start=' + start : ''))
 ```
 
-##bootstrap/bootstrap.css
+## bootstrap/bootstrap.css
 - Entre las líneas 155-178 comentadas:
 
 Se refieren a las tag 'a' para que no las modifique sin nuestro permiso
