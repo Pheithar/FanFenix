@@ -27,14 +27,52 @@ Para el desarrollo del sitio web usamos bibliotecas y frameworks externos
 # Modificaciones de las bibliotecas
 
 Hemos modificado alguna de estas bibliotecas para que se adecue a lo que queremos que haga:
+##summernote/summernote.js
+- Línea 7018:
 
-- Línea 7018 summernote/summernote.js:
+Original:
 
-  .attr('src', 'https://www.youtube.com/embed/' + youtubeId + (start > 0 ? '?start=' + start : ''))
+```diff
+! .attr('src', '//www.youtube.com/embed/' + youtubeId + (start > 0 ? '?start=' + start : ''))
+```
+Nuevo
+``` diff
++ .attr('src', 'https://www.youtube.com/embed/' + youtubeId + (start > 0 ? '?start=' + start : ''))
+```
 
-- Entre las líneas 155-178 comentadas bootstrap/bootstrap.css
+##bootstrap/bootstrap.css
+- Entre las líneas 155-178 comentadas:
 
-  Se refieren a las tag a para que no las modifique sin nuestro permiso
+Se refieren a las tag 'a' para que no las modifique sin nuestro permiso
+
+```diff
+-a {
+-  color: #007bff;
+-  text-decoration: none;
+-  background-color: transparent;
+-}
+
+-a:hover {
+-  color: #0056b3;
+-  text-decoration: underline;
+-}
+
+-a:not([href]):not([tabindex]) {
+-  color: inherit;
+-  text-decoration: none;
+-}
+
+-a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
+-  color: inherit;
+-  text-decoration: none;
+-}
+
+-a:not([href]):not([tabindex]):focus {
+-  outline: 0;
+-}
+
+```
+
 
 ### Fecha Inicio:
 
