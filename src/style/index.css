@@ -38,12 +38,22 @@ overflow: hidden;
 }
 .contenidoPrincipal{
   padding : 0 3vw 0 0vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contenidoSecundario{
   padding : 0 0vw 0 0vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*------------------ Carousel -----------------------*/
+section.awSlider{
+  width: 1%;
+  height: auto;
+
+}
+
 
 section.awSlider .carousel{
   display:table;
@@ -55,7 +65,12 @@ section.awSlider .carousel{
 
 /*evitar que se pueda arrastrar la foto*/
 section.awSlider img{
-   pointer-events: none;
+  pointer-events: none;
+  width: auto;
+  width: auto;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .carousel-caption{
   border-radius: 20px;
@@ -63,6 +78,10 @@ section.awSlider img{
 */
   font-size: 300%;
 }
+
+
+
+
 
 /*------------------ Carousel -----------------------*/
 

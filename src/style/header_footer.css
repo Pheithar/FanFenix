@@ -191,6 +191,7 @@ footer{
 
 
 .logos{
+  width: 100%;
   background: #2e2e2e;
   text-align: center;
   margin: 0px;
@@ -220,6 +221,9 @@ footer ul li{
   float:left;
   margin:7px;
   padding:0;
+}
+.logoMadrid{
+  text-align: center;
 }
 
 .logoMadrid img{

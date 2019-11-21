@@ -1,8 +1,8 @@
 //-------INDEX STUFF------
-$('section.awSlider .carousel').carousel({
+/*$('section.awSlider .carousel').carousel({
 	pause: "hover",
   interval: 2000
-});
+}); */
 
 var startImage = $('section.awSlider .item.active > img').attr('src');
 $('section.awSlider').append('<img src="' + startImage + '">');

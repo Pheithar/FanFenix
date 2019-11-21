@@ -93,7 +93,7 @@
 
     <main>
       <div class="container">
-        <div class="row">
+        <div class="row ">
 
           <div class="col-sm-9">
             <div class="contenidoPrincipal">
@@ -102,62 +102,56 @@
 
               <div class="row">
                 <!--noticais principales-->
+
+
+
                 <section class="awSlider">
-                <div  class="carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target=".carousel" data-slide-to="0" class="active"></li>
-                    <li data-target=".carousel" data-slide-to="1"></li>
-                    <li data-target=".carousel" data-slide-to="2"></li>
-                    <li data-target=".carousel" data-slide-to="3"></li>
-                  </ol>
 
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                      <a href="#">
-                        <img src="images/redArmy.jpeg">
-                        <div class="carousel-caption">
-                          <b>Noticia #1</b>
+                  <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="#">
+                          <img src="images/redArmy.jpeg" alt="Noticia1">
+                          <div class="carousel-caption">
+                            <b>Noticia #1</b>
+                        </a>
                         </div>
-                      </a>
-                    </div>
-                    <div class="item">
-                      <a href="#">
-                        <img src="images/image1.jpg">
-                        <div class="carousel-caption">
-                          <b>Noticia #2</b>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="#">
+                          <img src="images/redArmy.jpeg" alt="Noticia1">
+                          <div class="carousel-caption">
+                            <b>Noticia #1</b>
+                        </a>
                         </div>
-                      </a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="#">
+                          <img src="images/redArmy.jpeg" alt="Noticia1">
+                          <div class="carousel-caption">
+                            <b>Noticia #1</b>
+                        </a>
+                      </div>
                     </div>
-                    <div class="item">
-                      <a href="#">
-                        <img src="images/redArmy.jpeg">
-                        <div class="carousel-caption">
-                          <b>Noticia #3</b>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="item">
-                      <a href="#">
-                        <img src="images/redArmy.jpeg">
-                        <div class="carousel-caption">
-                          <b>Noticia #4</b>
-                        </div>
-                      </a>
-                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+
                   </div>
-
-                  <!-- Controls -->
-                  <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <!---<span class="sr-only">Geri</span> -->
-                  </a>
-                  <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <!---<span class="sr-only">Geri</span> -->
-                  </a>
-                </div>
                 </section>
 
 
@@ -210,7 +204,7 @@
             </div> <!--contenidoPrincipal-->
           </div>  <!--columna-->
 
-          <div class="col-sm-3" style="background-color:blue">
+          <div class="col-sm-3">
             <div class="contenidoSecundario">
 
 
@@ -266,8 +260,8 @@
               <div class="row">
                 <div class="twitterWidget">
                   <!--Widget de Twitter-->
-                  <a class="twitter-timeline" data-chrome="nofooter noborders" data-aria-polite="assertive" data-width="300"
-                  data-height="300" href="https://twitter.com/Fanfenix?ref_src=twsrc%5Etfw">
+                  <a class="twitter-timeline" data-chrome="nofooter noborders" data-aria-polite="assertive" data-width="500"
+                  data-height="400" href="https://twitter.com/Fanfenix?ref_src=twsrc%5Etfw">
                   </a>
                 </div>
               </div>
@@ -287,73 +281,82 @@
 
     <!-- Footer -->
     <footer>
+      <div class="row d-flex justify-content-center">
 
-      <div class="logos">
-        <span>
-          <a href="https://www.youtube.com/user/FanfenixTV" target="_blank">
-            <img src="images/redesSociales/001-youtube.png" alt="logoYoutube">
-          </a>
-        </span>
-        <span>
-          <a href="https://www.instagram.com/fanfenix/?hl=es" target="_blank">
-            <img src="images/redesSociales/029-instagram.png" alt="logoInstagram">
-          </a>
-        </span>
-        <span>
-          <a href="https://twitter.com/Fanfenix" target="_blank">
-            <img src="images/redesSociales/008-twitter.png" alt="logoTwitter">
-          </a>
-        </span>
-        <span>
-          <a href="https://www.facebook.com/cplmadrid" target="_blank">
-            <img src="images/redesSociales/036-facebook.png" alt="logoFacebook">
-          </a>
-        </span>
-      </div>
 
-      <div class="column">
-        <div class="row">
-          <ul>
-            <li>
-              <a href="#" target="_blank">
-                Contacto
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
-                Nuestro Club
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/Pheithar/FanFenix/issues" target="_blank">
-                Reporte de errores
-              </a>
-            </li>
-          </ul>
+
+        <div class="logos">
+          <span>
+            <a href="https://www.youtube.com/user/FanfenixTV" target="_blank">
+              <img src="images/redesSociales/001-youtube.png" alt="logoYoutube">
+            </a>
+          </span>
+          <span>
+            <a href="https://www.instagram.com/fanfenix/?hl=es" target="_blank">
+              <img src="images/redesSociales/029-instagram.png" alt="logoInstagram">
+            </a>
+          </span>
+          <span>
+            <a href="https://twitter.com/Fanfenix" target="_blank">
+              <img src="images/redesSociales/008-twitter.png" alt="logoTwitter">
+            </a>
+          </span>
+          <span>
+            <a href="https://www.facebook.com/cplmadrid" target="_blank">
+              <img src="images/redesSociales/036-facebook.png" alt="logoFacebook">
+            </a>
+          </span>
         </div>
 
-          <hr>
+        <div class="col-sm-3">
+          <div class="row d-flex justify-content-center">
+            <ul>
+              <li>
+                <a href="#" target="_blank">
+                  Contacto
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  Nuestro Club
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Pheithar/FanFenix/issues" target="_blank">
+                  Reporte de errores
+                </a>
+              </li>
+            </ul>
+          </div>
 
-        <div class="row logoMadrid">
-          <h5>COLABORADORES:</h5>
-          <a href="https://www.madrid.es/" target="_blank">
-            <img src="images/logoMadrid.png" alt="logoAyuntamientoMadrid">
-          </a>
+            <hr>
+
+          <div class="row row d-flex justify-content-center colaboradores">
+
+            <h5>COLABORADORES:</h5>
+          </div>
+          <div class="row row d-flex justify-content-center logoMadrid">
+            <a href="https://www.madrid.es/" target="_blank">
+              <img src="images/logoMadrid.png" alt="logoAyuntamientoMadrid">
+            </a>
+          </div>
+
+
+        <hr>
+
+        <div class="row d-flex justify-content-center">
+
+          <!-- Copyright -->
+          <div>© 2019 Copyright:
+            <a href="https://github.com/Pheithar/FanFenix" target="_blank">Github</a>
+          </div>
+          <!-- Copyright -->
         </div>
 
 
-      <hr>
 
-      <div class="row">
-
-        <!-- Copyright -->
-        <div>© 2019 Copyright:
-          <a href="https://github.com/Pheithar/FanFenix" target="_blank">Github</a>
-        </div>
-        <!-- Copyright -->
-      </div>
-
-    </div>
+    </div><!--columna externa-->
+    </div> <!--row externa-->
 
     </footer>
     <!-- Footer -->
