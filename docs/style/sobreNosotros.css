@@ -106,3 +106,8 @@ input{
   text-decoration:none;
   text-shadow:0px 1px 0px #854629;
 }
+
+#incidencia{
+  max-width: 70%;
+  resize: vertical;
+}
