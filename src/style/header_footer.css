@@ -14,7 +14,7 @@ a, a:hover, a:active, a:focus{
 
 
 header{
-  z-index: 10000;
+  z-index: 1000;
   background-color: #ac271d;
   color: #eeeeee;
   display: inline-block;
@@ -53,6 +53,10 @@ header{
 
 #cerrarIniciarSesion{
   text-decoration: underline;
+}
+
+#cerrarIniciarSesion:hover{
+  cursor: pointer;
 }
 
 .textoSeleccionable{

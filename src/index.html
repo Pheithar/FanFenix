@@ -19,15 +19,18 @@
     <script src="script/header_footer.js"></script>
     <script src="script/index.js"></script>
 
+    <!-- JSON -->
+    <script type="text/javascript" src="users/testUser.json"></script>
+
     <!--boostrap-->
       <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
+      <!--<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
+      <link rel="stylesheet" type="text/css" href="style/bootstrap.css">
       <!-- jQuery library -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
       <!-- Latest compiled JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script src="script/bootstrap.js"></script>
 
     <!--diseño responsive-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,7 +54,7 @@
           <p></p>
           <input type="password" placeholder="Contraseña">
           <p></p>
-          <input type="submit" value="Iniciar Sesión" class="myButton">
+          <button type="button" class="myButton" onclick="checkSubmit()">Iniciar Sesión</button>
           <p id="cerrarIniciarSesion" onclick="hideSignIn()"> Cancelar</p>
         </form>
 
@@ -207,7 +210,7 @@
             </div> <!--contenidoPrincipal-->
           </div>  <!--columna-->
 
-          <div class="col-sm-3">
+          <div class="col-sm-3" style="background-color:blue">
             <div class="contenidoSecundario">
 
 
@@ -282,77 +285,77 @@
     </main>
 
 
-  <!-- Footer -->
-  <footer>
+    <!-- Footer -->
+    <footer>
 
-    <div class="logos">
-      <span>
-        <a href="https://www.youtube.com/user/FanfenixTV" target="_blank">
-          <img src="images/redesSociales/001-youtube.png" alt="logoYoutube">
-        </a>
-      </span>
-      <span>
-        <a href="https://www.instagram.com/fanfenix/?hl=es" target="_blank">
-          <img src="images/redesSociales/029-instagram.png" alt="logoInstagram">
-        </a>
-      </span>
-      <span>
-        <a href="https://twitter.com/Fanfenix" target="_blank">
-          <img src="images/redesSociales/008-twitter.png" alt="logoTwitter">
-        </a>
-      </span>
-      <span>
-        <a href="https://www.facebook.com/cplmadrid" target="_blank">
-          <img src="images/redesSociales/036-facebook.png" alt="logoFacebook">
-        </a>
-      </span>
-    </div>
+      <div class="logos">
+        <span>
+          <a href="https://www.youtube.com/user/FanfenixTV" target="_blank">
+            <img src="images/redesSociales/001-youtube.png" alt="logoYoutube">
+          </a>
+        </span>
+        <span>
+          <a href="https://www.instagram.com/fanfenix/?hl=es" target="_blank">
+            <img src="images/redesSociales/029-instagram.png" alt="logoInstagram">
+          </a>
+        </span>
+        <span>
+          <a href="https://twitter.com/Fanfenix" target="_blank">
+            <img src="images/redesSociales/008-twitter.png" alt="logoTwitter">
+          </a>
+        </span>
+        <span>
+          <a href="https://www.facebook.com/cplmadrid" target="_blank">
+            <img src="images/redesSociales/036-facebook.png" alt="logoFacebook">
+          </a>
+        </span>
+      </div>
 
-    <div class="column">
+      <div class="column">
+        <div class="row">
+          <ul>
+            <li>
+              <a href="#" target="_blank">
+                Contacto
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank">
+                Nuestro Club
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Pheithar/FanFenix/issues" target="_blank">
+                Reporte de errores
+              </a>
+            </li>
+          </ul>
+        </div>
+
+          <hr>
+
+        <div class="row logoMadrid">
+          <h5>COLABORADORES:</h5>
+          <a href="https://www.madrid.es/" target="_blank">
+            <img src="images/logoMadrid.png" alt="logoAyuntamientoMadrid">
+          </a>
+        </div>
+
+
+      <hr>
+
       <div class="row">
-        <ul>
-          <li>
-            <a href="#" target="_blank">
-              Contacto
-            </a>
-          </li>
-          <li>
-            <a href="" target="_blank">
-              Nuestro Club
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/Pheithar/FanFenix/issues" target="_blank">
-              Reporte de errores
-            </a>
-          </li>
-        </ul>
+
+        <!-- Copyright -->
+        <div>© 2019 Copyright:
+          <a href="https://github.com/Pheithar/FanFenix" target="_blank">Github</a>
+        </div>
+        <!-- Copyright -->
       </div>
 
-        <hr>
-
-      <div class="row logoMadrid">
-        <h5>COLABORADORES:</h5>
-        <a href="https://www.madrid.es/" target="_blank">
-          <img src="images/logoMadrid.png" alt="logoAyuntamientoMadrid">
-        </a>
-      </div>
-
-
-    <hr>
-
-    <div class="row">
-
-      <!-- Copyright -->
-      <div>© 2019 Copyright:
-        <a href="https://github.com/Pheithar/FanFenix" target="_blank">Github</a>
-      </div>
-      <!-- Copyright -->
     </div>
 
-  </div>
-
-  </footer>
-  <!-- Footer -->
+    </footer>
+    <!-- Footer -->
   </body>
 </html>

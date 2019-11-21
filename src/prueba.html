@@ -1,91 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Prueba</title>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CPLM Fénix</title>
 
-  <link rel="shortcut icon" href="images/Fenix.png">
+    <link rel="shortcut icon" href="images/Fenix.png">
 
-  <link rel="stylesheet" href="bootstrap-carousel-with-ambilight/css/style.css">
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="style/header_footer.css">
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <link rel="stylesheet" type="text/css" href="style/sobreNosotros.css">
 
-  <!--css-->
-  <link rel="stylesheet" type="text/css" href="style/header_footer.css">
-  <link rel="stylesheet" type="text/css" href="style/index.css">
-  <link rel="stylesheet" type="text/css" href="style/sobreNosotros.css">
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-  <!-- JQUERY -->
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- javascript-->
+    <script src="script/header_footer.js"></script>
+    <script src="script/index.js"></script>
 
-  <!-- javascript-->
-  <script src="script/header_footer.js"></script>
-  <script src="script/index.js"></script>
+    <!-- JSON -->
+    <script type="text/javascript" src="users/testUser.json"></script>
 
+    <!--boostrap-->
+      <!-- Latest compiled and minified CSS -->
+      <!--<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
+      <link rel="stylesheet" type="text/css" href="style/bootstrap.css">
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+      <!-- Latest compiled JavaScript -->
+      <script src="script/bootstrap.js"></script>
 
+    <!--diseño responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!--boostrap-->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- Widget twitter--->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </head>
+  <body>
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-  <!--diseño responsive-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Widget twitter--->
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</head>
-<body>
-  
-  <section class="awSlider">
-  <div  class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target=".carousel" data-slide-to="0" class="active"></li>
-      <li data-target=".carousel" data-slide-to="1"></li>
-      <li data-target=".carousel" data-slide-to="2"></li>
-      <li data-target=".carousel" data-slide-to="3"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-941.jpg">
-        <div class="carousel-caption">Görsel #1</div>
+    <div class="row">
+      <div class="col-sm-5" style="background-color:green">
+          <p>A</p>
+          <p>B</p>
+          <p>C</p>
       </div>
-      <div class="item">
-        <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-101.jpg">
-        <div class="carousel-caption">Görsel #2</div>
+      <div class="col-sm-2">
+
       </div>
-      <div class="item">
-        <img src="http://www.adobewordpress.com/wp-content/uploads/2014/02/wallpaper-thumb-1051.jpg">
-        <div class="carousel-caption">Görsel #3</div>
-      </div>
-      <div class="item">
-        <img src="http://www.adobewordpress.com/wp-content/uploads/2013/07/wallpaper-thumb-74.jpg">
-        <div class="carousel-caption">Görsel #4</div>
+      <div class="col-sm-3" style="background-color:blue">
+        <div class="row" style="background-color:red">
+          <p>A</p>
+
+        </div>
+          <p>B</p>
       </div>
     </div>
 
-    <!-- Controls -->
-    <a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Geri</span>
-    </a>
-    <a class="right carousel-control" href=".carousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">İleri</span>
-    </a>
-  </div>
-  </section>
-
-
-</body>
+  </body>
 </html>

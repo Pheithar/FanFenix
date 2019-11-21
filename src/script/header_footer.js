@@ -21,3 +21,9 @@ function showSignIn(){
 function hideSignIn(){
   $("#iniciarSesionPopUp").hide("fast");
 }
+
+function checkSubmit() {
+  users = '[{"userName" : "FanFenix", "password" : "admin"}, {"userName" : "Admin1", "password" : "admin"}]';
+  var allUsers = JSON.parse(users);
+  console.log(allUsers[0].userName);
+}
