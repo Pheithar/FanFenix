@@ -1,12 +1,10 @@
-
-
-
 .contenidoAbout, .contenidoTemporada{
   text-align:center;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 10vh;
+  min-width: 40vw;
   margin: 20px;
 }
 
