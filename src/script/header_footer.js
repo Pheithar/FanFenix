@@ -23,13 +23,7 @@ function hideSignIn(){
 }
 
 function checkSubmit() {
-  const fs = require('fs');
-  fs.readFile('users/testUser.json', (err, data) => {
-    if (err) throw err;
-
-    console.log(data.toString());
-  });
-
-  var user = JSON.parse('{"userName" : "FanFenix", "password" : "admin"}');
-  console.log(user.userName);
+  users = '[{"userName" : "FanFenix", "password" : "admin"}, {"userName" : "Admin1", "password" : "admin"}]';
+  var allUsers = JSON.parse(users);
+  console.log(allUsers[0].userName);
 }
