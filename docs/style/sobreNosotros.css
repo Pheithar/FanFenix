@@ -57,7 +57,7 @@
   margin-right : auto;
   width: 60%;
 }
-
+/*NOTICIAS*/
 .infoContenedor{
   text-align: left;
   border-radius: 10px;
@@ -74,6 +74,16 @@
   border-bottom: 1px solid #942911;
   margin-bottom: 10px;
 }
+.imgNoticia{
+  border-top : 1px solid #942911;
+  text-align: center;
+}
+.imgNoticia img{
+  padding-top: 3%;
+  width: 45vw;
+  height : auto;
+}
+/*NOTICIAS*/
 
 input{
   border: none;
