@@ -63,6 +63,7 @@ function checkSubmit() {
     if (allUsers[i].userName == valueUserName && allUsers[i].password == valuePassword) {
       logIn = true
       //MODIFICAR COOKIE
+      document.cookie = "registered=True";
     }
   }
   if (!logIn) {

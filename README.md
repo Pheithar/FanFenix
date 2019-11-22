@@ -34,11 +34,11 @@ Hemos modificado alguna de estas bibliotecas para que se adecue a lo que queremo
 Original:
 
 ```diff
-! .attr('src', '//www.youtube.com/embed/' + youtubeId + (start > 0 ? '?start=' + start : ''))
+!.attr('src', '//www.youtube.com/embed/' + youtubeId + (start > 0 ? '?start=' + start : ''))
 ```
 Nuevo
 ``` diff
-+ .attr('src', 'https://www.youtube.com/embed/' + youtubeId + (start > 0 ? '?start=' + start : ''))
++.attr('src', 'https://www.youtube.com/embed/' + youtubeId + (start > 0 ? '?start=' + start : ''))
 ```
 
 ## bootstrap/bootstrap.css
