@@ -1,10 +1,13 @@
-.boton{
-  color:#eeeeee;
-  background-color: #ac271d;
+.botonCrearNoticia{
   width: 10%;
   padding: 10px;
   position: relative;
   left: 15%;
+}
+.botonExpandir{
+  position: relative;
+  margin-left: 85%;
+
 }
 
 #contenedorNoticia{
@@ -14,25 +17,6 @@
   margin-top: 20px;
 }
 
-.noticia{
-  padding: 2%;
-  background-color: white;
-  margin-top: 2%;
-  display: inline-block;
-  width: 100%;
-  border: solid #ac271d 1px;
-  border-radius: 10px;
-}
-
-.tituloNoticia{
-  font-size: 20pt;
-  text-align: center;
-  color: #ac271d;
-  margin-bottom: 5px;
-  font-weight: bold;
-  /*Mejorar el titulo. Cmabiar letra, probar sin centrar si esta bien
-  probra colores de fondo, diferentes colores, poner en negrita...*/
-}
 
 .fecha{
   font-size: 10pt;
@@ -40,108 +24,3 @@
   color: #001619;
   margin-bottom: 5px;
 }
-
-.imagenPrincipalNoticia{
-  width: 20%;
-  height: auto;
-  float: left;
-  margin: 2%;
-}
-
-.textoNoticia{
-  float: right;
-  width: 70%;
-}
-
-.expandirNoticia{
-  position: relative;
-  text-align: center;
-  clear: both;
-  float: right;
-  right: 35%;
-  margin-top: 10px;
-  padding: 3px 30px;
-  border: solid transparent;
-}
-
-.expandirNoticia:hover{
-  background-color: #eb8a8f;
-  border: solid #C9C5BA;
-  border-radius: 5px;
-  /*Mi idea es hacer el bordes redondeados*/
-}
-
-#formulario{
-  background-color: white;
-  margin: auto;
-  width: 80%;
-  border: solid #ac271d 1px;
-  border-radius: 10px;
-  padding-left: 5%;
-  padding-bottom: 2%;
-}
-
-#crearNoticia{
-  font-size: 20pt;
-  text-align: center;
-  color: #ac271d;
-  font-weight: bold;
-}
-
-#todosBotones{
-  text-align: center;
-}
-
-#todosBotones button{
-  margin-left: 2%;
-  width: 20%;
-}
-
-/*
-.contenedorNoticia{
-  width: 70%;
-  min-height: 150px;
-  margin-left : auto;
-  margin-right : auto;
-
-}
-
-.contenedorNoticia .titleContenedorNoticia{
-/*
-  background-color : rgba(235,138,143, 1);
-
-  background-color : #eeeeee;
-  text-align: center;
-  background-image: url("../images/Fenix.png");
-  min-height: 100px;
-}
-
-.contenedorNoticia .titleContenedorNoticia h1{
-  font-size: 20pt;
-  background-color : rgba(235,138,143, 0.85);
-  /*
-  background-color: rgba(201,197,186, 0.9);
-
-  color: #001619;
-}
-
-.containerNews .fotoPrincipalNoticia{
-  width: 100%;
-  height: auto;
-}
-
-.contenidoNoticia{
-  /*
-  background-color : rgba(235,138,143, 1);
-
-  background-color: rgb(201,197,186);
-  border-radius: 0px 0px 20px 20px;
-}
-
-.contenidoNoticia p{
-  font-size: 13pt;
-  color: #001619;
-  padding:  10px;
-  margin: 0;
-}
-*/

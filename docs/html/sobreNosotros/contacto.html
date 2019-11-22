@@ -9,6 +9,8 @@
     <!--css-->
     <link rel="stylesheet" type="text/css" href="../../style/header_footer.css">
     <link rel="stylesheet" type="text/css" href="../../style/sobreNosotros.css">
+    <link rel="stylesheet" type="text/css" href="../../style/style.css">
+
 
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -85,16 +87,6 @@
         <form id="contactForm" >
         <!-- method="post" action="../../php/form-to-email.php"> -->
 
-        <!--PRUEBA CON BOOSTRAP-->
-          <div class="row">
-            <div class="form-group">
-              <div class="col-xs-8">
-                <input type="text" id="idNombreT" name="txt_Nombre" class="form-control input-xs">
-              </div>
-            </div>
-          </div>
-          <!--PRUEBA CON BOOSTRAP-->
-
           <div class="row">
            <!--Nombre-->
            <label for="usr">Datos:</label> <br>
@@ -111,7 +103,7 @@
           <div class="row">
             <label for="motivo">Motivo</label> <br>
             <select class="" id="motivo" name = "motivo">
-              <option value = "Indicidencia1">Incidencia1</option>
+              <option value = "none" selected>Selecciona un motivo</option>
               <option value = "Indicidencia2">Incidencia2</option>
               <option value = "Indicidencia3">Incidencia3</option>
               <option value = "Indicidencia4">Incidencia4</option>

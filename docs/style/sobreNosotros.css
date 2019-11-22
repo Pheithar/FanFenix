@@ -1,46 +1,3 @@
-.contenidoAbout, .contenidoTemporada{
-  text-align:center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 10vh;
-  min-width: 40vw;
-  margin: 20px;
-}
-
-.itemsButtons{
-  padding: 10px;
-}
-.buttonImage{
-  width: 50px;
-  height: auto;
-}
-
-.myButton {
-	box-shadow:inset 0px 1px 0px 0px #cf866c;
-	background-color:#ac271d;
-	border-radius:3px;
-	border:1px solid #942911;
-	display:inline-block;
-	cursor:pointer;
-	color:#eeeeee !important;
-	font-size:13px;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #854629;
-}
-
-.myButton:hover {
-	background-color:#eb8a8f;
-  color:#eeeeee !important;
-}
-
-.myButton:active {
-	position:relative;
-	top:1px;
-  color:#eeeeee !important;
-}
-
 #contacto{
   background-color: white;
   width: 40%;
@@ -57,38 +14,9 @@
   margin-right : auto;
   width: 60%;
 }
-/*NOTICIAS*/
-.infoContenedor{
-  text-align: left;
-  border-radius: 10px;
-  background-color: white;
-  padding: 0px 20px 20px 20px;
-  margin: 15px 0px 15px 0px;
-  /*ponerlo con un borde negro y como por encima*/
-  z-index:2;
-  -moz-box-shadow: 0 0 4px #444;
-	-webkit-box-shadow: 0 0 4px #444;
-	box-shadow: 0 0 15px rgba(1,1,1,.5);
-}
-.titleContenedorNoticia{
-  border-bottom: 1px solid #942911;
-  margin-bottom: 10px;
-}
-.imgNoticia{
-  border-top : 1px solid #942911;
-  text-align: center;
-}
-.imgNoticia img{
-  padding-top: 3%;
-  width: 45vw;
-  height : auto;
-}
-/*NOTICIAS*/
 
-input{
-  border: none;
-  border-bottom: 2px solid red;
-}
+
+
 
 .sendedMailButton{
 	box-shadow:inset 0px 1px 0px 0px #9acc85;

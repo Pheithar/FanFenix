@@ -154,7 +154,9 @@ nav ul ul a {
   line-height:120%;
   padding:10px 15px;
 }
-
+nav ul a:hover{
+  cursor:pointer;
+}
 /* items del menu desplegable al pasar el ratón */
 
 nav ul li:hover > ul {
