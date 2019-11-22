@@ -8,15 +8,14 @@
 
   <!--css-->
   <link rel="stylesheet" type="text/css" href="../../style/header_footer.css">
+  <link rel="stylesheet" type="text/css" href="../../style/style.css">
   <link rel="stylesheet" type="text/css" href="../../style/noticias.css">
 
   <!-- JQUERY -->
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-  <!-- javascript   -->
-  <script src="../../script/header_footer.js"></script>
-  <script src="../../script/sobreNosotros.js"></script>
+
 
   <!--boostrap-->
     <!-- Latest compiled and minified CSS -->
@@ -29,12 +28,17 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 
+  <!--Summernote -->
+  <link rel="stylesheet" href="../../summernote/summernote.css">
+  <script src="../../summernote/summernote.js"></script>
+
+  <!-- javascript   -->
+  <script src="../../script/header_footer.js"></script>
+  <script src="../../script/crearNoticia.js"></script>
 
   <!--diseño responsive-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Widget twitter--->
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </head>
   <body>
     <header id="header">
@@ -78,21 +82,42 @@
 
 
     <main>
-      <article id="formulario">
-        <p id="crearNoticia">Crear nueva noticia</p>
-        <p>Insertar Título</p>
-        <input type="text" placeholder="Título" >
-        <p>Insertar Imagen Principal</p>
-        <input type="file"  accept="image/*" id="textImageNewBox" onchange="loadFile(event)">
-        <p></p>
-        <div id="summernote">Hello Summernote</div>
-        <button type="button" name="button" onclick="prueba()">Prueba</button>
-      </article>
+      <div class="contenedorForm contenidoNuevaNoticia">
+        <div class="container">
+
+          <div class="col-sm">
+
+            <form id = "noticiasFormulario" class="">
+              <div class="row">
+                <h1 id="crearNoticia">Crear nueva noticia</h1>
+              </div>
+              <div class="row">
+                <h2>Insertar Título</h2>
+                <input type="text" placeholder="Título">
+                <h2>Insertar Imagen Principal</h2>
+                <input type="file"  accept="image/*" id="textImageNewBox" onchange="loadFile(event)">
+              </div>
+              <br>
+              <div class="row">
+                <div id="summernote">Hello Summernote</div>
+              </div>
+            </form>
+
+            <div class="row">
+              <button type="myButton" name="button" onclick="prueba()">Prueba</button>
+            </div>
+
+            <div class="row">
+              <div class="pruebas">
+              </div>
+            </div>
+
+          </div><!--column-->
+        </div> <!--container-->
+
+      </div> <!--contenedorForm-->
 
 
-      <iframe width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
     </main>
 
     <!-- Footer -->

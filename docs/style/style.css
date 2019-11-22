@@ -1,10 +1,16 @@
-.contenidoAbout, .contenidoTemporada{
+.contenidoAbout{
   text-align:center;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 10vh;
-  min-width: 40vw;
+  min-width: 50vw;
+  margin: 20px;
+}
+.contenidoNuevaNoticia, .contenidoUsuario{
+  display: flex;
+  min-height: 10vh;
+  min-width: 70vw;
   margin: 20px;
 }
 
@@ -79,7 +85,20 @@
 /*BOTONES*/
 
 /*FORMULARIOS*/
-input{
+.contenedorForm{
+  background-color: white;
+  width: 40%;
+  margin-left : auto;
+  margin-right : auto;
+  border-radius: 10px;
+  padding: 4vw;
+  z-index:2;
+  -moz-box-shadow: 0 0 4px #444;
+  -webkit-box-shadow: 0 0 4px #444;
+  box-shadow: 0 0 15px rgba(1,1,1,.5);
+}
+
+input[type=text], input[type=password]{
   border: none;
   border-bottom: 2px solid red;
 }

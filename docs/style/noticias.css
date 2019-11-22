@@ -1,13 +1,11 @@
 .botonCrearNoticia{
-  width: 10%;
   padding: 10px;
   position: relative;
   left: 15%;
 }
 .botonExpandir{
   position: relative;
-  margin-left: 85%;
-
+  margin-left: 82%;
 }
 
 #contenedorNoticia{
@@ -17,6 +15,9 @@
   margin-top: 20px;
 }
 
+.contenidoNuevaNoticia{
+  padding: 0% 3% 3% 3%;
+}
 
 .fecha{
   font-size: 10pt;
