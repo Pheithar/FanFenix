@@ -10,9 +10,10 @@ $( document ).ready(function() {
    allCookies = "; " + document.cookie;
    parts = allCookies.split("; " + "registered" + "=");
    //Coger el valor de la cookie registered
-   var valueRegistered = parts[1], split(";")[0];
+   var valueRegistered = parts[1].split(";")[0];
    if (valueRegistered == "True") {
      //USUARIO REGISTRADO
+
    }
    else {
      //USUARIO NO REGISTRADO
