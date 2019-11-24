@@ -1,0 +1,20 @@
+\BOOKMARK [1][-]{section.1}{Definici\363n del Prototipo}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Colores}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Objetivo}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Conoce al Usuario}{section.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Jos\351 Antonio}{subsection.1.3}% 5
+\BOOKMARK [3][-]{subsubsection.1.3.2}{Sara}{subsection.1.3}% 6
+\BOOKMARK [3][-]{subsubsection.1.3.3}{Carla}{subsection.1.3}% 7
+\BOOKMARK [2][-]{subsection.1.4}{Entorno}{section.1}% 8
+\BOOKMARK [3][-]{subsubsection.1.4.1}{Sitio web actual de CPL Madrid}{subsection.1.4}% 9
+\BOOKMARK [3][-]{subsubsection.1.4.2}{Sitio web del Atl\351tico de Madrid}{subsection.1.4}% 10
+\BOOKMARK [1][-]{section.2}{Justificaci\363n del dise\361o del sitio Web}{}% 11
+\BOOKMARK [2][-]{subsection.2.1}{Heur\355sticas de Nielsen}{section.2}% 12
+\BOOKMARK [2][-]{subsection.2.2}{Patrones de dise\361o de Van Duyne}{section.2}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Nivel A}{subsection.2.2}% 14
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Nivel B}{subsection.2.2}% 15
+\BOOKMARK [1][-]{section.3}{Tecnolog\355as usadas}{}% 16
+\BOOKMARK [2][-]{subsection.3.1}{Boostrap}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.2}{Summernote}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.3}{Widget Twitter}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.4}{Widget Google Calendar}{section.3}% 20

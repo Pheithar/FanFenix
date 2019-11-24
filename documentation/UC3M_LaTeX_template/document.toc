@@ -1,0 +1,27 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Definici\IeC {\'o}n del Prototipo}{2}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Colores}{2}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2}Objetivo}{2}{subsection.1.2}% 
+\contentsline {subsection}{\numberline {1.3}Conoce al Usuario}{2}{subsection.1.3}% 
+\contentsline {subsubsection}{\numberline {1.3.1}Jos\IeC {\'e} Antonio}{2}{subsubsection.1.3.1}% 
+\contentsline {subsubsection}{\numberline {1.3.2}Sara}{3}{subsubsection.1.3.2}% 
+\contentsline {subsubsection}{\numberline {1.3.3}Carla}{3}{subsubsection.1.3.3}% 
+\contentsline {subsection}{\numberline {1.4}Entorno}{4}{subsection.1.4}% 
+\contentsline {subsubsection}{\numberline {1.4.1}Sitio web actual de \href {http://www.cplmadrid.com/}{CPL Madrid}}{4}{subsubsection.1.4.1}% 
+\contentsline {paragraph}{Heur\IeC {\'\i }stica de Nielsen}{4}{paragraph*.4}% 
+\contentsline {paragraph}{Patrones de Dise\IeC {\~n}o de Van Duyne}{4}{paragraph*.5}% 
+\contentsline {subsubsection}{\numberline {1.4.2}Sitio web del \href {https://www.atleticodemadrid.com/}{Atl\IeC {\'e}tico de Madrid}}{5}{subsubsection.1.4.2}% 
+\contentsline {paragraph}{Heur\IeC {\'\i }stica de Nielsen}{5}{paragraph*.6}% 
+\contentsline {paragraph}{Patrones de Dise\IeC {\~n}o de Van Duyne}{6}{paragraph*.7}% 
+\contentsline {section}{\numberline {2}Justificaci\IeC {\'o}n del dise\IeC {\~n}o del sitio Web}{8}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Heur\IeC {\'\i }sticas de Nielsen}{8}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Patrones de dise\IeC {\~n}o de Van Duyne}{8}{subsection.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Nivel A}{8}{subsubsection.2.2.1}% 
+\contentsline {paragraph}{A1}{8}{paragraph*.8}% 
+\contentsline {subsubsection}{\numberline {2.2.2}Nivel B}{8}{subsubsection.2.2.2}% 
+\contentsline {paragraph}{B1}{8}{paragraph*.9}% 
+\contentsline {section}{\numberline {3}Tecnolog\IeC {\'\i }as usadas}{9}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Boostrap}{9}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Summernote}{9}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Widget Twitter}{9}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {3.4}Widget Google Calendar}{9}{subsection.3.4}% 
