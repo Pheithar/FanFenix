@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.11.17)  24 NOV 2019 22:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.11.17)  25 NOV 2019 13:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -930,7 +930,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 50.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 50.
-<template/logo_completo_vertical.png, id=87, 612.2875pt x 737.75626pt>
+<template/logo_completo_vertical.png, id=123, 612.2875pt x 737.75626pt>
 File: template/logo_completo_vertical.png Graphic file (type png)
 <use template/logo_completo_vertical.png>
 Package pdftex.def Info: template/logo_completo_vertical.png  used on input lin
@@ -962,7 +962,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 \tf@toc=\write7
 \openout7 = `document.toc'.
 
-<template/logo_completo_horizontal.png, id=139, 1168.365pt x 353.32pt>
+<template/logo_completo_horizontal.png, id=193, 1168.365pt x 353.32pt>
 File: template/logo_completo_horizontal.png Graphic file (type png)
 <use template/logo_completo_horizontal.png>
 Package pdftex.def Info: template/logo_completo_horizontal.png  used on input l
@@ -975,140 +975,236 @@ been already used, duplicate ignored
 l.56     \tableofcontents\newpage
                                          % Index of the document [1 <./template
 /logo_completo_horizontal.png>]
-<Images/Antonio.jpg, id=145, 60.225pt x 60.225pt>
+File: template/logo_completo_horizontal.png Graphic file (type png)
+<use template/logo_completo_horizontal.png>
+Package pdftex.def Info: template/logo_completo_horizontal.png  used on input l
+ine 66.
+(pdftex.def)             Requested size: 140.19774pt x 42.39656pt.
+ [2]
+<Images/Antonio.jpg, id=205, 60.225pt x 60.225pt>
 File: Images/Antonio.jpg Graphic file (type jpg)
 <use Images/Antonio.jpg>
-Package pdftex.def Info: Images/Antonio.jpg  used on input line 89.
+Package pdftex.def Info: Images/Antonio.jpg  used on input line 75.
 (pdftex.def)             Requested size: 90.33725pt x 90.33725pt.
 
-Overfull \hbox (2.70409pt too wide) in paragraph at lines 89--90
+Overfull \hbox (2.70409pt too wide) in paragraph at lines 75--76
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 92.
+(Font)              scaled to size 8.54997pt on input line 78.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <9> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 94.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 80.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.54997pt on input line 94.
+(Font)              scaled to size 8.54997pt on input line 80.
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
-<Images/Sara.jpg, id=146, 60.225pt x 60.225pt>
+<Images/Sara.jpg, id=206, 60.225pt x 60.225pt>
 File: Images/Sara.jpg Graphic file (type jpg)
 <use Images/Sara.jpg>
-Package pdftex.def Info: Images/Sara.jpg  used on input line 100.
+Package pdftex.def Info: Images/Sara.jpg  used on input line 86.
 (pdftex.def)             Requested size: 90.33725pt x 90.33725pt.
 
-Overfull \hbox (2.70409pt too wide) in paragraph at lines 100--101
+Overfull \hbox (2.70409pt too wide) in paragraph at lines 86--87
 [][] 
  []
 
-File: template/logo_completo_horizontal.png Graphic file (type png)
-<use template/logo_completo_horizontal.png>
-Package pdftex.def Info: template/logo_completo_horizontal.png  used on input l
-ine 107.
-(pdftex.def)             Requested size: 140.19774pt x 42.39656pt.
-[2 <./Images/Antonio.jpg>]
-<Images/Carla.jpg, id=154, 60.225pt x 60.225pt>
+<Images/Carla.jpg, id=207, 60.225pt x 60.225pt>
 File: Images/Carla.jpg Graphic file (type jpg)
 <use Images/Carla.jpg>
-Package pdftex.def Info: Images/Carla.jpg  used on input line 110.
+Package pdftex.def Info: Images/Carla.jpg  used on input line 96.
 (pdftex.def)             Requested size: 90.33725pt x 90.33725pt.
 
-Overfull \hbox (2.70409pt too wide) in paragraph at lines 110--111
+Overfull \hbox (2.70409pt too wide) in paragraph at lines 96--97
 [][] 
  []
 
 File: template/logo_completo_horizontal.png Graphic file (type png)
 <use template/logo_completo_horizontal.png>
 Package pdftex.def Info: template/logo_completo_horizontal.png  used on input l
-ine 119.
+ine 105.
 (pdftex.def)             Requested size: 140.19774pt x 42.39656pt.
-[3 <./Images/Sara.jpg> <./Images/Carla.jpg>]
+[3 <./Images/Antonio.jpg> <./Images/Sara.jpg>]
+File: template/logo_completo_horizontal.png Graphic file (type png)
+<use template/logo_completo_horizontal.png>
+Package pdftex.def Info: template/logo_completo_horizontal.png  used on input l
+ine 105.
+(pdftex.def)             Requested size: 140.19774pt x 42.39656pt.
+ [4 <./Images/Carla.jpg>]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 128.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 114.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 128.
+(Font)              scaled to size 9.49997pt on input line 114.
 File: template/logo_completo_horizontal.png Graphic file (type png)
 <use template/logo_completo_horizontal.png>
 Package pdftex.def Info: template/logo_completo_horizontal.png  used on input l
-ine 174.
+ine 160.
 (pdftex.def)             Requested size: 140.19774pt x 42.39656pt.
- [4]
+
+[5]
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 183.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 169.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 183.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 169.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 9.49997pt on input line 183.
+(Font)              scaled to size 9.49997pt on input line 169.
 File: template/logo_completo_horizontal.png Graphic file (type png)
 <use template/logo_completo_horizontal.png>
 Package pdftex.def Info: template/logo_completo_horizontal.png  used on input l
-ine 227.
-(pdftex.def)             Requested size: 140.19774pt x 42.39656pt.
- [5]
-File: template/logo_completo_horizontal.png Graphic file (type png)
-<use template/logo_completo_horizontal.png>
-Package pdftex.def Info: template/logo_completo_horizontal.png  used on input l
-ine 276.
+ine 213.
 (pdftex.def)             Requested size: 140.19774pt x 42.39656pt.
  [6]
 File: template/logo_completo_horizontal.png Graphic file (type png)
 <use template/logo_completo_horizontal.png>
 Package pdftex.def Info: template/logo_completo_horizontal.png  used on input l
-ine 282.
+ine 262.
 (pdftex.def)             Requested size: 140.19774pt x 42.39656pt.
  [7]
 File: template/logo_completo_horizontal.png Graphic file (type png)
 <use template/logo_completo_horizontal.png>
 Package pdftex.def Info: template/logo_completo_horizontal.png  used on input l
-ine 293.
+ine 266.
 (pdftex.def)             Requested size: 140.19774pt x 42.39656pt.
  [8]
+<Images/Prototipo/home.png, id=245, 1031.855pt x 546.04pt>
+File: Images/Prototipo/home.png Graphic file (type png)
+<use Images/Prototipo/home.png>
+Package pdftex.def Info: Images/Prototipo/home.png  used on input line 280.
+(pdftex.def)             Requested size: 526.37598pt x 278.5517pt.
+
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 280--281
+ [][] 
+ []
+
+<Images/Prototipo/noticias.png, id=246, 1031.855pt x 546.04pt>
+File: Images/Prototipo/noticias.png Graphic file (type png)
+<use Images/Prototipo/noticias.png>
+Package pdftex.def Info: Images/Prototipo/noticias.png  used on input line 287.
+
+(pdftex.def)             Requested size: 526.37598pt x 278.5517pt.
+
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 287--288
+ [][] 
+ []
+
 File: template/logo_completo_horizontal.png Graphic file (type png)
 <use template/logo_completo_horizontal.png>
 Package pdftex.def Info: template/logo_completo_horizontal.png  used on input l
-ine 301.
+ine 290.
 (pdftex.def)             Requested size: 140.19774pt x 42.39656pt.
- [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
+[9 <./Images/Prototipo/home.png>]
+<Images/Prototipo/crear_entrada.png, id=253, 1031.855pt x 546.04pt>
+File: Images/Prototipo/crear_entrada.png Graphic file (type png)
+<use Images/Prototipo/crear_entrada.png>
+Package pdftex.def Info: Images/Prototipo/crear_entrada.png  used on input line
+ 293.
+(pdftex.def)             Requested size: 526.37598pt x 278.5517pt.
 
-(./document.aux
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 293--294
+ [][] 
+ []
+
+File: template/logo_completo_horizontal.png Graphic file (type png)
+<use template/logo_completo_horizontal.png>
+Package pdftex.def Info: template/logo_completo_horizontal.png  used on input l
+ine 297.
+(pdftex.def)             Requested size: 140.19774pt x 42.39656pt.
+[10 <./Images/Prototipo/noticias.png> <./Images/Prototipo/crear_entrada.png>]
+<Images/Prototipo/clasificaciones.png, id=262, 1031.855pt x 546.04pt>
+File: Images/Prototipo/clasificaciones.png Graphic file (type png)
+<use Images/Prototipo/clasificaciones.png>
+Package pdftex.def Info: Images/Prototipo/clasificaciones.png  used on input li
+ne 300.
+(pdftex.def)             Requested size: 526.37598pt x 278.5517pt.
+
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 300--301
+ [][] 
+ []
+
+<Images/Prototipo/clasificaciones_mvil.png, id=263, 1031.855pt x 546.04pt>
+File: Images/Prototipo/clasificaciones_mvil.png Graphic file (type png)
+<use Images/Prototipo/clasificaciones_mvil.png>
+Package pdftex.def Info: Images/Prototipo/clasificaciones_mvil.png  used on inp
+ut line 306.
+(pdftex.def)             Requested size: 526.37598pt x 278.5517pt.
+
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 306--307
+ [][] 
+ []
+
+File: template/logo_completo_horizontal.png Graphic file (type png)
+<use template/logo_completo_horizontal.png>
+Package pdftex.def Info: template/logo_completo_horizontal.png  used on input l
+ine 312.
+(pdftex.def)             Requested size: 140.19774pt x 42.39656pt.
+[11 <./Images/Prototipo/clasificaciones.png> <./Images/Prototipo/clasificacione
+s_mvil.png>]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 326.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Overfull \hbox (12.2478pt too wide) in paragraph at lines 326--327
+[] []\T1/phv/b/n/10 Pro-yec-to[] \T1/phv/m/n/10 Pa-ra rea-li-zar es-ta prác-ti-
+ca se ha crea-do un pro-yec-to en Git-Hub ([][]$\T1/pcr/m/n/10 https : / / gith
+ub . com / Pheithar /
+ []
+
+File: template/logo_completo_horizontal.png Graphic file (type png)
+<use template/logo_completo_horizontal.png>
+Package pdftex.def Info: template/logo_completo_horizontal.png  used on input l
+ine 364.
+(pdftex.def)             Requested size: 140.19774pt x 42.39656pt.
+[12]
+File: template/logo_completo_horizontal.png Graphic file (type png)
+<use template/logo_completo_horizontal.png>
+Package pdftex.def Info: template/logo_completo_horizontal.png  used on input l
+ine 381.
+(pdftex.def)             Requested size: 140.19774pt x 42.39656pt.
+ [13]
+File: template/logo_completo_horizontal.png Graphic file (type png)
+<use template/logo_completo_horizontal.png>
+Package pdftex.def Info: template/logo_completo_horizontal.png  used on input l
+ine 401.
+(pdftex.def)             Requested size: 140.19774pt x 42.39656pt.
+ [14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 403.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 403.
+ (./document.aux
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 403.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 403.
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 959B87752A287E3FF3D60F9DFADF88C3;1366.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 301.
+(rerunfilecheck)             Checksum: 9ECD2BC8375CEA1A81718EAF20E94279;2042.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 403.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 59 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 19156 strings out of 493914
- 347253 string characters out of 6159327
- 447273 words of memory out of 5000000
- 22483 multiletter control sequences out of 15000+600000
- 36067 words of font info for 37 fonts, out of 8000000 for 9000
+ 19243 strings out of 493914
+ 348998 string characters out of 6159327
+ 449225 words of memory out of 5000000
+ 22538 multiletter control sequences out of 15000+600000
+ 36688 words of font info for 39 fonts, out of 8000000 for 9000
  376 hyphenation exceptions out of 8191
- 60i,24n,94p,848b,10165s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,24n,94p,848b,10231s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/helvetic/uhvro8a.pfb>
-Output written on document.pdf (10 pages, 293855 bytes).
+e/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uh
+vro8a.pfb>
+Output written on document.pdf (15 pages, 849541 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 202 compressed objects within 3 object streams
- 39 named destinations out of 1000 (max. 500000)
- 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 330 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 295 words of extra memory for PDF output out of 10000 (max. 10000000)
 
