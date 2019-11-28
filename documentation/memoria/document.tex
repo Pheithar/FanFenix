@@ -311,7 +311,7 @@ En nuestro caso, al desarrollar un proyecto diferente al resto de compañeros, n
 
 \subsection{Implementación}
 Vamos a desarrollar brevemente el reparto de tareas y el flujo de trabajo que se ha llevado a cabo.
-\subsubsection{Colores}
+\subsubsection{Colores}\label{paleta}
 Uno de los primeros pasos fue la elección de colores que siguieran la estética del club al que representa el sitio web, pero siguiendo los principios de usar tres colores básicos y dos extra que deriven de ellos. Para ello, hemos usado href{}{software externo} para la creación de la paleta.
 
 \subsubsection{Estructura}
@@ -373,10 +373,67 @@ Se han asignado tareas y mediante reuniones o trabajando juntos, se han acordado
 
 \subsection{Patrones de diseño de Van Duyne}
 A continuación, se expondrán algunos de los patrones que se han tenido en cuenta durante el desarrollo del sitio web.
-\subsubsection{Nivel A}
-\paragraph{A1}
-\subsubsection{Nivel B}
-\paragraph{B1}
+\subsubsection{A: Género del sitio}
+\paragraph{A?}
+
+\subsubsection{B: Navegación}
+\paragraph{B3: Organización Jerárquica}
+  El sito web posee subgrupos detrás de las ideas principales y que se indican en los desplegables de la barra de navegación. Por ejemplo, \textit{Temporada} tiene los subapartados \textit{Clasificación, calendarios, Ligas, Estadísticas} que tienen sentido lógico de ser estar recogidas en ese apartado.
+\paragraph{B7: Organización basada en la popularidad}
+  Los apartados principales del sitio, recogidos en la barra de navegación. Tras realizar una encuesta a los usuarios de la web actual, se ha establecido que el orden a seguir debía ser el utilizado.
+\paragraph{B8: Categoría de páginas}
+  Se ha aplicado un estilo general para toda la web. Cada apartado requiere una estructura distinta, pero para que crear unificación ciertas subestructuras se han adoptado con el mismo estilo o muy similar.
+\subsubsection{C: Página Principal}
+\paragraph{C1: Página Principal}
+  El sitio web posee una página principal en la que se indica los contenidos mediante la barra de navegación en la parte superior. Justo por encima, se presenta el logo y nombre del club a los que hemos querido dar gran importancia. En la parte izquierda superior se presenta el botón de Iniciar Sesión, ya que no es una acción principal y solo lo harán unos pocos usuarios, hemos considerado que el sitio era adecuado para no quitar visibilidad al contenido.
+
+  Además, el sitio posee una página de noticias principales, seguido de noticias secundarias hechas por módulos. En el lado, se ha colocado accesos a redes sociales, el calendario del eventos, noticias destacadas y un widget de una red social.
+
+
+\subsubsection{D: Manejando contenido}
+\paragraph{D1: Modelo de página}
+  Todas la páginas del sitio tienen el mismo header y footer, esa es la parte principal del modelo que se aplica en todos. Posteriormente, en las páginas que poseen texto tienen unos contenedores con estilo de tarjeta unificado y apliacado como si fuera un molde.
+\paragraph{D7: Estilo de pirámide invertida}
+  Cada entrada del blog, está organizada con este estilo ya que se tratan de artículos de contenido de estilo periodístico que siguen estas reglas. Las noticias o entradas, tienen un titular y una foto en la parte superior que proporcionan la mayor cantidad de información. A continuación, se procede a desarrollar el contenido dejando para el final la información menos relevante.
+\paragraph{D9: Título de HTML distinguibles}
+  Cada subapartado tiene su propio HTML asociado con nombres únicos y explicativos.
+
+
+\subsubsection{E: Construyendo confianza y credibilidad}
+\paragraph{E1: Marca}
+  Se ha considerado la inclusión del logo del club en todas las páginas. Además, como se comentó en el apartado de \ref{paleta} colores los colores elegidos son los del club. Estos están presentes en el escudo, tipografía y equipaciones.
+\paragraph{E5: Sobre Nosotros}
+  El sitio web posee un apartado llamado \textit{Sobre Nosotros} y en él se explica información del club para poner un contexto.
+
+\subsubsection{H: Ayudando a completar tareas}
+\paragraph{H2: Iniciar Sesión/ Nueva cuenta}
+  La creación de cuenta solo lo podrá hacer un administrador y para crear uno nuevo simplemente se piden unas credenciales básicas en los que se deja claro que son campos de obligatoriedad.
+  Por tanto, la web no necesita registro para darle un uso común, solo para los administradores que necesiten editar el contenido.
+\paragraph{H3: Cuenta de Invitado}
+  Como se ha explicado en el punto anterior, no es necesario tener una cuenta para visitar el sito web.
+\paragraph{H10: Formularios claros}
+  Los formularios no tienen una gran complejidad y posee los campos mínimos y necesarios en cada caso. El formulario para contactar con el club posee un control inteligente en caso de que algún campo obligatorio no esté completo.
+
+\subsubsection{I: Definiendo composiciones efectivas de páginas}
+\paragraph{I4: Cambiar el contenido relativo al ancho de pantalla}
+  En los ordenadores, el ancho del contenido varía dependiendo del ancho de la pantalla. Por ello, es adaptable.
+
+\subsubsection{K: Haciendo la navegación fácil}
+\paragraph{K2: Barra de navegación}
+  Barra de navegación presente en todas páginas para permitir la navegación entre apartados.
+\paragraph{K4: Action Buttons}
+  Los botones cuando se pulsan poseen una pequeña respuesta que indica que se están pulsando. Además, en formularios en los que se puede incluir alguna imagen, al lado del botón incluirá el nombre de la foto para indicar que se ha seleccionado.
+\paragraph{K5: Botones de alta visibilidad}
+  Los botones tienen un color rojo que permite al usuario darse cuenta más fácilmente de su existencia y facilitando la navegación.
+\paragraph{K8: Link externo}
+  El sitio web posee vario enlaces externos. Los más relevantes se pueden encontrar en la página principal en la que se encuentran las redes sociales del club accesibles a través de esta utilidad.
+\paragraph{K9: Descriptivo}
+  El sitio posee botones de \textbf{Leer más} que referencia a la noticia completa que contiene el resto de la información no accesible desde la página desde la que se navegó.
+\paragraph{K11: Lenguaje familiar}
+  El lenguaje utilizado está relaciona con el ámbito deportivo y cualquiera con mínimos conocimientos sobre deportes colectivos reconocerá el vocabulario sin dificultad.
+
+
+
 %Fin de sección de Justificación del diseño del sitio Web
 \newpage
 
