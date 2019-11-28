@@ -25,3 +25,13 @@
   color: #001619;
   margin-bottom: 5px;
 }
+
+.iconosNoticia{
+  float: right;
+}
+
+.iconosNoticia img{
+  width: 25px;
+  height: auto;
+  margin: 10px;
+}

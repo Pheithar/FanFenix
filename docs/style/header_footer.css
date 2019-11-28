@@ -34,6 +34,10 @@ header{
   color: #eeeeee;
 }
 
+.sesion:hover{
+  cursor: pointer;
+}
+
 #iniciarSesionPopUp{
   position: absolute;
   top: 30px;
