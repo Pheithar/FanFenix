@@ -104,3 +104,7 @@ input[type=text], input[type=password]{
   border-bottom: 2px solid red;
 }
 /*FORMULARIOS*/
+.titleName{
+  position: absolute;
+  margin-left: 3%;
+}
