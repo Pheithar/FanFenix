@@ -97,6 +97,6 @@ function signInHideShow(){
 function closeSesion() {
   if (confirm("¿Estás seguro de que quieres cerrar sesión?")){
     document.cookie = "logged=False; path=/";
-    signInHideShow(); 
+    signInHideShow();
   }
 }
