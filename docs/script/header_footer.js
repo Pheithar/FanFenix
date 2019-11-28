@@ -1,24 +1,14 @@
 $( document ).ready(function() {
   //Si no existe la cookie 'registered', la crea
   var allCookies = "; " + document.cookie;
-  var parts = allCookies.split("; " + "registered" + "=");
+  var parts = allCookies.split("; logged=");
   if (parts.length != 2){
-     document.cookie = "registered=False"
+    console.log(parts);
+    console.log(parts.length != 2);
+    document.cookie = "logged=False; path=/";
    }
 
-   //Mostrar una vista u otra dependiendo de como sea el cookie
-   allCookies = "; " + document.cookie;
-   parts = allCookies.split("; " + "registered" + "=");
-   //Coger el valor de la cookie registered
-   var valueRegistered = parts[1].split(";")[0];
-   if (valueRegistered == "True") {
-     //USUARIO REGISTRADO
-
-   }
-   else {
-     //USUARIO NO REGISTRADO
-   }
-
+   signInHideShow();
 
 });
 
@@ -62,12 +52,42 @@ function checkSubmit() {
   //Comprobar que exista, y si no, mandar un error
   for (var i = 0; i < allUsers.length; i++) {
     if (allUsers[i].userName == valueUserName && allUsers[i].password == valuePassword) {
-      logIn = true
+      logIn = true;
       //MODIFICAR COOKIE
-      document.cookie = "registered=True";
+      document.getElementById("iniciarSesionUser").value = "";
+      document.getElementById("iniciarSesionContrasseña").value = "";
+      valuePassword = "";
+      document.cookie = "logged=True; path=/";
+      signInHideShow();
     }
   }
   if (!logIn) {
     console.log("Usuario o contraseña incorrecta");
   }
+}
+
+
+
+//Funcion que se encarga de mostrar o ocultar los elemnetos visibles para los admins
+function signInHideShow(){
+  allCookies = "; " + document.cookie;
+  parts = allCookies.split("; " + "logged" + "=");
+  //Coger el valor de la cookie registered
+  var valueLogged = parts[1].split(";")[0];
+  if (valueLogged == "True") {
+    console.log(valueLogged);
+    $(".soloAdmin").show();
+    $(".noAdmin").hide();
+
+  }
+  else {
+    $(".soloAdmin").hide();
+    $(".noAdmin").show();
+  }
+
+}
+
+function closeSesion() {
+  document.cookie = "logged=False; path=/";
+  signInHideShow();
 }
