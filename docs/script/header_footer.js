@@ -9,6 +9,7 @@ $( document ).ready(function() {
    }
 
    signInHideShow();
+   $("#showLogInError").hide();
 
 });
 
@@ -63,7 +64,11 @@ function checkSubmit() {
   }
   if (!logIn) {
     console.log("Usuario o contraseña incorrecta");
+    $("#showLogInError").show()
+  }else{
+    $("#showLogInError").hide();
   }
+
 }
 
 
@@ -76,18 +81,22 @@ function signInHideShow(){
   var valueLogged = parts[1].split(";")[0];
   if (valueLogged == "True") {
     console.log(valueLogged);
-    $(".soloAdmin").show();
     $(".noAdmin").hide();
+    $(".soloAdmin").show("fast");
+    $("#showLogInError").hide();
 
   }
   else {
     $(".soloAdmin").hide();
     $(".noAdmin").show();
+    $("#showLogInError").hide();
   }
 
 }
 
 function closeSesion() {
-  document.cookie = "logged=False; path=/";
-  signInHideShow();
+  if (confirm("¿Estás seguro de que quieres cerrar sesión?")){
+    document.cookie = "logged=False; path=/";
+    signInHideShow();
+  }
 }
