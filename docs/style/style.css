@@ -99,9 +99,10 @@
   box-shadow: 0 0 15px rgba(1,1,1,.5);
 }
 
-input[type=text], input[type=password]{
+input[type=text], input[type=password], input[type=email]{
   border: none;
   border-bottom: 2px solid red;
+  margin-bottom: 3px;
 }
 /*FORMULARIOS*/
 .titleName{
