@@ -43,14 +43,15 @@
   <body>
     <header id="header">
       <div id="logoTitleHeader">
-        <p id="iniciarSesion" class="textoSeleccionable" onclick="showSignIn();">Iniciar Sesión</p>
+        <p class="noAdmin sesion" onclick="showSignIn();">Iniciar Sesión</p>
+        <p class="soloAdmin sesion" onclick="closeSesion()"> Cerrar Sesión</p>
         <a href="index.html" id = "logoFenixEnlace" >
           <img src="images/Fenix.png" alt="Logo fénix" id = "logoFenix">
         </a>
         <h1 id="titleNav">CPL Madrid Fénix</h1>
       </div>
 
-      <div id="iniciarSesionPopUp">
+      <div id="iniciarSesionPopUp" class="noAdmin">
         <form>
           <input type="text" placeholder="Usuario" id="iniciarSesionUser">
           <p></p>

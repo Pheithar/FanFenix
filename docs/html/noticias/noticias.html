@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-   <meta charset="utf-8">
-   <title>CPLM Fénix</title>
+  <head>
+     <meta charset="utf-8">
+     <title>CPLM Fénix</title>
 
-   <link rel="shortcut icon" href="../../images/hockeyMaskColor.png">
+     <link rel="shortcut icon" href="../../images/hockeyMaskColor.png">
 
-   <!--css-->
-   <link rel="stylesheet" type="text/css" href="../../style/header_footer.css">
-   <link rel="stylesheet" type="text/css" href="../../style/style.css">
-   <link rel="stylesheet" type="text/css" href="../../style/noticias.css">
+     <!--css-->
+     <link rel="stylesheet" type="text/css" href="../../style/header_footer.css">
+     <link rel="stylesheet" type="text/css" href="../../style/style.css">
+     <link rel="stylesheet" type="text/css" href="../../style/noticias.css">
 
-   <!-- include libraries(jQuery, bootstrap) -->
-   <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
-   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+     <!-- include libraries(jQuery, bootstrap) -->
+     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
 
-   <!-- javascript   -->
-   <script src="../../script/header_footer.js"></script>
-   <script src="../../script/crearNoticia.js"></script>
-
-
-   <!--diseño responsive-->
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-   <!-- Widget twitter--->
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-   <!-- include summernote css/js -->
-   <link href="../../summernote/summernote.css" rel="stylesheet">
-   <script src="../../summernote/summernote.js"></script>
+     <!-- javascript   -->
+     <script src="../../script/header_footer.js"></script>
+     <script src="../../script/crearNoticia.js"></script>
 
 
- </head>
+     <!--diseño responsive-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Widget twitter--->
+     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+     <!-- include summernote css/js -->
+     <link href="../../summernote/summernote.css" rel="stylesheet">
+     <script src="../../summernote/summernote.js"></script>
+
+
+  </head>
   <body>
     <header id="header">
       <div id="logoTitleHeader">
@@ -76,13 +76,17 @@
 
     <main>
 
-      <a href="crearNoticia.html">
+      <a href="crearNoticia.html" class="soloAdmin">
         <input type="button" value="Nueva Noticia" class="myButton botonCrearNoticia"/>
       </a>
 
       <article id="contenedorNoticia">
         <!-- Noticia 1 -->
         <div class="infoContenedor">
+          <div class="">
+            <img class="soloAdmin" src="" alt="Modificar Noticia">
+            <img class="soloAdmin" src="" alt="Borrar Noticia">
+          </div>
           <div class="titleContenedorNoticia">
             <h1 class="tituloNoticia"> Título1 </h1>
           </div>
