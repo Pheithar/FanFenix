@@ -35,3 +35,35 @@
   height: auto;
   margin: 10px;
 }
+
+#mensajeError{
+  padding-left: 5%;
+}
+
+#mensajeError p{
+  display: none;
+  border: solid #C9C5BA 4px;
+  border-radius: 3px;
+  color: #eeeeee;
+  background-color: #ac271d;
+  margin: 10px;
+  padding: 5px;
+  width: max-content;
+}
+
+.previsualizacion{
+  display: none;
+}
+
+#imagenNuevaNoticia{
+  width: 10%;
+  height: auto;
+}
+
+#imagenNoticia{
+  display: inline;
+}
+
+#publicarNoticia{
+  display: none;
+}

@@ -93,9 +93,10 @@
               </div>
               <div class="row">
                 <h2>Insertar Título</h2>
-                <input type="text" placeholder="Título" required>
+                <input type="text" placeholder="Título" id="tituloNoticia">
                 <h2>Insertar Imagen Principal</h2>
-                <input type="file"  accept="image/*" id="textImageNewBox" onchange="loadFile(event)" required>
+                <input type="file"  accept="image/*" id="imagenNoticia" onchange="loadFile(event)">
+                <img src="" alt="" id="imagenNuevaNoticia">
               </div>
               <br>
               <div class="row">
@@ -104,12 +105,19 @@
             </form>
 
             <div class="row">
-              <button type="button" class="myButton" name="button" onclick="crearNoticia()">Prueba</button>
+              <button type="button" class="myButton" name="button" onclick="crearNoticia()">Previsualización</button>
             </div>
 
-            <div class="row">
-              <div class="infoContenedor">
-              </div>
+            <div id="mensajeError">
+              <p id="errorTitulo">El título está vacío</p>
+              <p id="errorImagen"> No hay ninguna imágen seleccionada</p>
+            </div>
+
+            <div class="previsualizacion" id="ejemplo">
+            </div>
+
+            <div class="row" id="publicarNoticia">
+              <button type="button" class="myButton" name="button">Publicar</button>
             </div>
 
           </div><!--column-->
