@@ -1,0 +1,34 @@
+\BOOKMARK [1][-]{section.1}{Objetivo}{}% 1
+\BOOKMARK [1][-]{section.2}{Usuarios y Entorno}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Conoce al Usuario}{section.2}% 3
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Jos\351 Antonio}{subsection.2.1}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Sara}{subsection.2.1}% 5
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Carla}{subsection.2.1}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Entorno}{section.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Sitio web actual de CPL Madrid}{subsection.2.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Sitio web del Atl\351tico de Madrid}{subsection.2.2}% 9
+\BOOKMARK [1][-]{section.3}{Prototipo e Implementaci\363n}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Primer prototipo}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Presentaci\363n del prototipo Final}{section.3}% 12
+\BOOKMARK [3][-]{subsubsection.3.2.1}{P\341gina principal}{subsection.3.2}% 13
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Noticias y creaci\363n de entradas}{subsection.3.2}% 14
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Clasificaciones Versi\363n M\363vil y Desktop}{subsection.3.2}% 15
+\BOOKMARK [2][-]{subsection.3.3}{Implementaci\363n}{section.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Colores}{subsection.3.3}% 17
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Estructura}{subsection.3.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Flujo de trabajo}{subsection.3.3}% 19
+\BOOKMARK [2][-]{subsection.3.4}{Heur\355sticas de Nielsen}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.5}{Patrones de dise\361o de Van Duyne}{section.3}% 21
+\BOOKMARK [3][-]{subsubsection.3.5.1}{B: Navegaci\363n}{subsection.3.5}% 22
+\BOOKMARK [3][-]{subsubsection.3.5.2}{C: P\341gina Principal}{subsection.3.5}% 23
+\BOOKMARK [3][-]{subsubsection.3.5.3}{D: Manejando contenido}{subsection.3.5}% 24
+\BOOKMARK [3][-]{subsubsection.3.5.4}{E: Construyendo confianza y credibilidad}{subsection.3.5}% 25
+\BOOKMARK [3][-]{subsubsection.3.5.5}{H: Ayudando a completar tareas}{subsection.3.5}% 26
+\BOOKMARK [3][-]{subsubsection.3.5.6}{I: Definiendo composiciones efectivas de p\341ginas}{subsection.3.5}% 27
+\BOOKMARK [3][-]{subsubsection.3.5.7}{K: Haciendo la navegaci\363n f\341cil}{subsection.3.5}% 28
+\BOOKMARK [1][-]{section.4}{Tecnolog\355as}{}% 29
+\BOOKMARK [2][-]{subsection.4.1}{Desarrollo Web}{section.4}% 30
+\BOOKMARK [2][-]{subsection.4.2}{Boostrap}{section.4}% 31
+\BOOKMARK [2][-]{subsection.4.3}{Summernote}{section.4}% 32
+\BOOKMARK [2][-]{subsection.4.4}{Widget Twitter y Google Calendar}{section.4}% 33
+\BOOKMARK [2][-]{subsection.4.5}{Navegores}{section.4}% 34
