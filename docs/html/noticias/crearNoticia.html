@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>CPLM Fénix</title>
+  <head>
+    <meta charset="utf-8">
+    <title>CPLM Fénix</title>
 
-  <link rel="shortcut icon" href="../../images/Fenix.png">
+    <link rel="shortcut icon" href="../../images/Fenix.png">
 
-  <!--css-->
-  <link rel="stylesheet" type="text/css" href="../../style/header_footer.css">
-  <link rel="stylesheet" type="text/css" href="../../style/style.css">
-  <link rel="stylesheet" type="text/css" href="../../style/noticias.css">
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="../../style/header_footer.css">
+    <link rel="stylesheet" type="text/css" href="../../style/style.css">
+    <link rel="stylesheet" type="text/css" href="../../style/noticias.css">
 
-  <!-- JQUERY -->
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-
-
-  <!--boostrap-->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 
-  <!--Summernote -->
-  <link rel="stylesheet" href="../../summernote/summernote.css">
-  <script src="../../summernote/summernote.js"></script>
 
-  <!-- javascript   -->
-  <script src="../../script/header_footer.js"></script>
-  <script src="../../script/crearNoticia.js"></script>
+    <!--boostrap-->
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-  <!--diseño responsive-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-</head>
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <!--Summernote -->
+    <link rel="stylesheet" href="../../summernote/summernote.css">
+    <script src="../../summernote/summernote.js"></script>
+
+    <!-- javascript   -->
+    <script src="../../script/header_footer.js"></script>
+    <script src="../../script/crearNoticia.js"></script>
+
+    <!--diseño responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
   <body>
     <header id="header">
       <div id="logoTitleHeader">
@@ -93,22 +93,22 @@
               </div>
               <div class="row">
                 <h2>Insertar Título</h2>
-                <input type="text" placeholder="Título">
+                <input type="text" placeholder="Título" required>
                 <h2>Insertar Imagen Principal</h2>
-                <input type="file"  accept="image/*" id="textImageNewBox" onchange="loadFile(event)">
+                <input type="file"  accept="image/*" id="textImageNewBox" onchange="loadFile(event)" required>
               </div>
               <br>
               <div class="row">
-                <div id="summernote">Hello Summernote</div>
+                <div id="summernote"></div>
               </div>
             </form>
 
             <div class="row">
-              <button type="button" class="myButton" name="button" onclick="prueba()">Prueba</button>
+              <button type="button" class="myButton" name="button" onclick="crearNoticia()">Prueba</button>
             </div>
 
             <div class="row">
-              <div class="pruebas">
+              <div class="infoContenedor">
               </div>
             </div>
 
