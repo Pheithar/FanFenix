@@ -36,6 +36,12 @@ function showSignIn(){
 
 //Esconder el pop-up de iniciar sesion
 function hideSignIn(){
+  //Reset values Form
+  document.getElementById("iniciarSesionUser").value = "";
+  document.getElementById("iniciarSesionContrasseña").value = "";
+
+  $("#showLogInError").hide();
+
   $("#iniciarSesionPopUp").hide("fast");
 }
 
@@ -63,10 +69,10 @@ function checkSubmit() {
     }
   }
   if (!logIn) {
-    console.log("Usuario o contraseña incorrecta");
-    $("#showLogInError").show()
+    //console.log("Usuario o contraseña incorrecta");
+    $("#showLogInError").show();
   }else{
-    $("#showLogInError").hide();
+    hideSignIn();
   }
 
 }
