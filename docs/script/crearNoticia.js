@@ -29,7 +29,8 @@ function crearNoticia() {
     contenedorContenido = $("<div></div>").addClass("contenidoNoticia");
     contenedorContenido.append(contenido);
 
-    fecha = $("<div></div>").text("fecha/fecha/fecha");/*Insertar la fecha actual*/
+
+    fecha = $("<div></div>").text(createDate());/*Insertar la fecha actual*/
     fecha.addClass("fecha");
 
 
@@ -84,3 +85,23 @@ var loadFile = function(event) {
   var image = document.getElementById('imagenNuevaNoticia');
   image.src = URL.createObjectURL(event.target.files[0]);
 };
+
+function createDate(){
+  var today = new Date();
+  var day = today.getDate();
+  var month = today.getMonth()+1; //Enero es 0!
+  var year = today.getFullYear();
+  if(day<10)
+    day = '0'+ day;
+  if(month<10)
+    month = '0'+ month;
+
+  date = day + '/' + month + '/' + year;
+  var time = today.getHours()+ ":";
+  var min = today.getMinutes();
+  if (min < 10)
+    time = time + "0"
+  time = time + min;
+  date = date + " " + time;
+  return date;
+}
