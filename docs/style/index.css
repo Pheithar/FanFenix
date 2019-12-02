@@ -96,9 +96,20 @@ section.awSlider img{
   font-size: 300%;
 }
 
+#imagenCarrusel1{
+  width: 50rem !important;
+  height: 25rem;
+}
 
+#imagenCarrusel2{
+  width: 50rem !important;
+  height: 25rem;
+}
 
-
+#imagenCarrusel3{
+  width: 50rem !important;
+  height: 25rem;
+}
 
 /*------------------ Carousel -----------------------*/
 
