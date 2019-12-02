@@ -39,11 +39,26 @@
   <body>
     <header id="header">
       <div id="logoTitleHeader">
-        <a id="iniciarSesion" class="textoSeleccionable" href="#">Iniciar Sesión</a>
+        <p class="noAdmin sesion" onclick="showSignIn();">Iniciar Sesión</p>
+        <p class="soloAdmin sesion" onclick="closeSesion()"> Cerrar Sesión</p>
         <a href="../../index.html" id = "logoFenixEnlace" >
           <img src="../../images/Fenix.png" alt="Logo fénix" id = "logoFenix">
         </a>
         <h1 id="titleNav">CPL Madrid Fénix</h1>
+      </div>
+
+      <div id="iniciarSesionPopUp" >
+        <form>
+          <input type="text" placeholder="Usuario" id="iniciarSesionUser">
+          <p></p>
+          <input type="password" placeholder="Contraseña" id="iniciarSesionContrasseña">
+          <p></p>
+          <p id="showLogInError">Datos Incorrectos</p>
+          <p></p>
+          <button type="button" class="myButton" onclick="checkSubmit()">Iniciar Sesión</button>
+          <p id="cerrarIniciarSesion" onclick="hideSignIn()"> Cancelar</p>
+        </form>
+
       </div>
       <nav>
         <a href="../../index.html">
@@ -59,10 +74,10 @@
               <li><a href="../temporada/estadisticas.html">Estadísticas</a></li>
             </ul>
           </li>
-          <li><a href="#" class="textoSeleccionable">Equipo</a>
+          <li><a class="textoSeleccionable">Equipo</a>
             <ul>
-              <li><a href="#">Horarios</a></li>
-              <li><a href="#">Media</a></li>
+              <li><a href="../equipo/horarios.html">Horarios</a></li>
+              <li><a href="../equipo/media.html">Media</a></li>
             </ul>
           </li>
           <li><a href="../patinaje/patinaje.html" class="textoSeleccionable ">Patinaje</a></li>
