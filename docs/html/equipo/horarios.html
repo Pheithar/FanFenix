@@ -8,8 +8,6 @@
 
   <!--css-->
   <link rel="stylesheet" type="text/css" href="../../style/header_footer.css">
-  <link rel="stylesheet" type="text/css" href="../../style/estiloNoticia.css">
-  <link rel="stylesheet" type="text/css" href="../../style/noticias.css">
   <link rel="stylesheet" type="text/css" href="../../style/style.css">
 
   <!-- JQUERY -->
@@ -30,97 +28,87 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
+
+
   <!--diseño responsive-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Widget twitter--->
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </head>
-  <body>
-    <header id="header">
-      <div id="logoTitleHeader">
-        <p class="noAdmin sesion" onclick="showSignIn();">Iniciar Sesión</p>
-        <p class="soloAdmin sesion" onclick="closeSesion()"> Cerrar Sesión</p>
-        <a href="../../index.html" id = "logoFenixEnlace" >
-          <img src="../../images/Fenix.png" alt="Logo fénix" id = "logoFenix">
-        </a>
-        <h1 id="titleNav">CPL Madrid Fénix</h1>
-      </div>
+<body>
+  <header id="header">
+    <div id="logoTitleHeader">
+      <p class="noAdmin sesion" onclick="showSignIn();">Iniciar Sesión</p>
+      <p class="soloAdmin sesion" onclick="closeSesion()"> Cerrar Sesión</p>
+      <a href="../../index.html" id = "logoFenixEnlace" >
+        <img src="../../images/Fenix.png" alt="Logo fénix" id = "logoFenix">
+      </a>
+      <h1 id="titleNav">CPL Madrid Fénix</h1>
+    </div>
 
-      <div id="iniciarSesionPopUp" >
-        <form>
-          <input type="text" placeholder="Usuario" id="iniciarSesionUser">
-          <p></p>
-          <input type="password" placeholder="Contraseña" id="iniciarSesionContrasseña">
-          <p></p>
-          <p id="showLogInError">Datos Incorrectos</p>
-          <p></p>
-          <button type="button" class="myButton" onclick="checkSubmit()">Iniciar Sesión</button>
-          <p id="cerrarIniciarSesion" onclick="hideSignIn()"> Cancelar</p>
-        </form>
+    <div id="iniciarSesionPopUp" >
+      <form>
+        <input type="text" placeholder="Usuario" id="iniciarSesionUser">
+        <p></p>
+        <input type="password" placeholder="Contraseña" id="iniciarSesionContrasseña">
+        <p></p>
+        <p id="showLogInError">Datos Incorrectos</p>
+        <p></p>
+        <button type="button" class="myButton" onclick="checkSubmit()">Iniciar Sesión</button>
+        <p id="cerrarIniciarSesion" onclick="hideSignIn()"> Cancelar</p>
+      </form>
 
-      </div>
-      <nav>
-        <a href="../../index.html">
-          <img src="../../images/Fenix.png" alt="Logo fénix" id="logoFenixShrink">
-        </a>
-        <ul>
-          <li><a href="../noticias/noticias.html" class="textoSeleccionable opcionElegida">Noticias</a></li>
-          <li><a class="textoSeleccionable">Temporada</a>
-            <ul>
-              <li><a href="../temporada/clasificacion.html">Clasificación</a></li>
-              <li><a href="../temporada/calendarios.html">Calendarios</a></li>
-              <li><a href="../temporada/ligas.html">Ligas</a></li>
-              <li><a href="../temporada/estadisticas.html">Estadísticas</a></li>
-            </ul>
-          </li>
-          <li><a class="textoSeleccionable">Equipo</a>
-            <ul>
-              <li><a href="../equipo/horarios.html">Horarios</a></li>
-              <li><a href="../equipo/media.html">Media</a></li>
-            </ul>
-          </li>
-          <li><a href="../patinaje/patinaje.html" class="textoSeleccionable ">Patinaje</a></li>
-          <li><a class="textoSeleccionable">Sobre Nosotros</a>
-            <ul>
-              <li><a href="../sobreNosotros/contacto.html" >Contacto</a></li>
-              <li><a href="../sobreNosotros/club.html" >Club</a></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    </div>
+    <nav>
+      <a href="../../index.html">
+        <img src="../../images/Fenix.png" alt="Logo fénix" id="logoFenixShrink">
+      </a>
+      <ul>
+        <li><a href="../noticias/noticias.html" class="textoSeleccionable">Noticias</a></li>
+        <li><a class="textoSeleccionable ">Temporada</a>
+          <ul>
+            <li><a href="../temporada/clasificacion.html">Clasificación</a></li>
+            <li><a href="../temporada/calendarios.html">Calendarios</a></li>
+            <li><a href="../temporada/ligas.html">Ligas</a></li>
+            <li><a href="../temporada/estadisticas.html">Estadísticas</a></li>
+          </ul>
+        </li>
+        <li><a class="textoSeleccionable opcionElegida">Equipo</a>
+          <ul>
+            <li><a href="../equipo/horarios.html">Horarios</a></li>
+            <li><a href="../equipo/media.html">Media</a></li>
+          </ul>
+        </li>
+        <li><a href="../patinaje/patinaje.html" class="textoSeleccionable ">Patinaje</a></li>
+        <li><a class="textoSeleccionable">Sobre Nosotros</a>
+          <ul>
+            <li><a href="../sobreNosotros/contacto.html" >Contacto</a></li>
+            <li><a href="../sobreNosotros/club.html" >Club</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
 
     <main>
+      <div class="titleName">
+        <h3>
+          Horarios
+        </h3>
+      </div>
 
-      <div id="laGranNoticia">
+      <div class="contenidoPatinaje" >
+
         <div class="infoContenedor">
-          <div class="titleContenedorNoticia">
-            <h1 class="tituloNoticia"> Título1 </h1>
-          </div>
-          <div class="fecha">
-            fecha/fecha/fecha
-          </div>
+          <h1>WORK IN PROGRESS</h1>
           <div class="imgNoticia">
-            <img src="../../images/redArmy.jpeg" alt="Foto Noticia">
-          </div>
-          <div class="contenidoNoticia">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <img src="../../images/progress.jpeg" alt="TRABAJO EN PROGRESO">
           </div>
         </div>
       </div>
 
-
-
-
-
-
-
-      </article>
     </main>
 
     <!-- Footer -->
