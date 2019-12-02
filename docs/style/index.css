@@ -1,16 +1,26 @@
-.calendar {
+#calendar {
 position: relative;
 padding-bottom: 75%;
-height: 0;
+
 overflow: hidden;
+
+background-color: white;
+display: inline;
+z-index:2;
+-moz-box-shadow: 0 0 4px #444;
+-webkit-box-shadow: 0 0 4px #444;
+box-shadow: 0 0 15px rgba(1, 1, 1, .5);
+text-align: left;
+border-radius: 10px;
+background-color: white;
+padding: 10px 10px 10px 10px;
+margin: 15px 0px 15px 0px;
+
 }
 
-.calendar iframe {
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+#calendar iframe {
+padding: 0 0 0 0;
+
 }
 
 #federaciones{
