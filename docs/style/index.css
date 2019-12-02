@@ -13,6 +13,34 @@ overflow: hidden;
   height: 100%;
 }
 
+#federaciones{
+  background-color: white;
+  display: inline;
+  z-index:2;
+  -moz-box-shadow: 0 0 4px #444;
+  -webkit-box-shadow: 0 0 4px #444;
+  box-shadow: 0 0 15px rgba(1, 1, 1, .5);
+  text-align: left;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  margin: 15px 0px 15px 0px;
+}
+
+#federaciones img{
+  width: 49%;
+  z-index:2;
+  -moz-box-shadow: 0 0 4px #444;
+  -webkit-box-shadow: 0 0 4px #444;
+  box-shadow: 0 0 15px rgba(1, 1, 1, .5);
+  text-align: left;
+  border-radius: 10px;
+  background-color: white;
+
+  border-radius: 10px;
+  height: auto
+}
+
 .twitterWidget{
 
 }
