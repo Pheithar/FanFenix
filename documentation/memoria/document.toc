@@ -21,40 +21,47 @@
 \contentsline {subsection}{\numberline {3.3}Implementaci\IeC {\'o}n}{13}{subsection.3.3}% 
 \contentsline {subsubsection}{\numberline {3.3.1}Colores}{13}{subsubsection.3.3.1}% 
 \contentsline {subsubsection}{\numberline {3.3.2}Estructura}{13}{subsubsection.3.3.2}% 
-\contentsline {subsubsection}{\numberline {3.3.3}Flujo de trabajo}{13}{subsubsection.3.3.3}% 
-\contentsline {paragraph}{Proyecto}{13}{paragraph*.13}% 
-\contentsline {paragraph}{Reparto de tareas}{13}{paragraph*.14}% 
-\contentsline {subsection}{\numberline {3.4}Heur\IeC {\'\i }sticas de Nielsen}{13}{subsection.3.4}% 
-\contentsline {subsection}{\numberline {3.5}Patrones de dise\IeC {\~n}o de Van Duyne}{14}{subsection.3.5}% 
-\contentsline {subsubsection}{\numberline {3.5.1}B: Navegaci\IeC {\'o}n}{14}{subsubsection.3.5.1}% 
-\contentsline {paragraph}{B3: Organizaci\IeC {\'o}n Jer\IeC {\'a}rquica}{14}{paragraph*.15}% 
-\contentsline {paragraph}{B7: Organizaci\IeC {\'o}n basada en la popularidad}{14}{paragraph*.16}% 
-\contentsline {paragraph}{B8: Categor\IeC {\'\i }a de p\IeC {\'a}ginas}{14}{paragraph*.17}% 
-\contentsline {subsubsection}{\numberline {3.5.2}C: P\IeC {\'a}gina Principal}{14}{subsubsection.3.5.2}% 
-\contentsline {paragraph}{C1: P\IeC {\'a}gina Principal}{14}{paragraph*.18}% 
+\contentsline {paragraph}{Index}{13}{paragraph*.13}% 
+\contentsline {paragraph}{Noticias}{13}{paragraph*.14}% 
+\contentsline {paragraph}{Temporada}{13}{paragraph*.15}% 
+\contentsline {paragraph}{Equipo}{13}{paragraph*.16}% 
+\contentsline {paragraph}{Patinaje}{14}{paragraph*.17}% 
+\contentsline {paragraph}{Sobre Nosotros}{14}{paragraph*.18}% 
+\contentsline {paragraph}{Usuario}{14}{paragraph*.19}% 
+\contentsline {subsubsection}{\numberline {3.3.3}Flujo de trabajo}{14}{subsubsection.3.3.3}% 
+\contentsline {paragraph}{Proyecto}{14}{paragraph*.20}% 
+\contentsline {paragraph}{Reparto de tareas}{14}{paragraph*.21}% 
+\contentsline {subsection}{\numberline {3.4}Heur\IeC {\'\i }sticas de Nielsen}{14}{subsection.3.4}% 
+\contentsline {subsection}{\numberline {3.5}Patrones de dise\IeC {\~n}o de Van Duyne}{15}{subsection.3.5}% 
+\contentsline {subsubsection}{\numberline {3.5.1}B: Navegaci\IeC {\'o}n}{15}{subsubsection.3.5.1}% 
+\contentsline {paragraph}{B3: Organizaci\IeC {\'o}n Jer\IeC {\'a}rquica}{15}{paragraph*.22}% 
+\contentsline {paragraph}{B7: Organizaci\IeC {\'o}n basada en la popularidad}{15}{paragraph*.23}% 
+\contentsline {paragraph}{B8: Categor\IeC {\'\i }a de p\IeC {\'a}ginas}{15}{paragraph*.24}% 
+\contentsline {subsubsection}{\numberline {3.5.2}C: P\IeC {\'a}gina Principal}{15}{subsubsection.3.5.2}% 
+\contentsline {paragraph}{C1: P\IeC {\'a}gina Principal}{15}{paragraph*.25}% 
 \contentsline {subsubsection}{\numberline {3.5.3}D: Manejando contenido}{15}{subsubsection.3.5.3}% 
-\contentsline {paragraph}{D1: Modelo de p\IeC {\'a}gina}{15}{paragraph*.19}% 
-\contentsline {paragraph}{D7: Estilo de pir\IeC {\'a}mide invertida}{15}{paragraph*.20}% 
-\contentsline {paragraph}{D9: T\IeC {\'\i }tulo de HTML distinguibles}{15}{paragraph*.21}% 
-\contentsline {subsubsection}{\numberline {3.5.4}E: Construyendo confianza y credibilidad}{15}{subsubsection.3.5.4}% 
-\contentsline {paragraph}{E1: Marca}{15}{paragraph*.22}% 
-\contentsline {paragraph}{E5: Sobre Nosotros}{15}{paragraph*.23}% 
-\contentsline {subsubsection}{\numberline {3.5.5}H: Ayudando a completar tareas}{15}{subsubsection.3.5.5}% 
-\contentsline {paragraph}{H2: Iniciar Sesi\IeC {\'o}n/ Nueva cuenta}{15}{paragraph*.24}% 
-\contentsline {paragraph}{H3: Cuenta de Invitado}{15}{paragraph*.25}% 
-\contentsline {paragraph}{H10: Formularios claros}{15}{paragraph*.26}% 
-\contentsline {subsubsection}{\numberline {3.5.6}I: Definiendo composiciones efectivas de p\IeC {\'a}ginas}{15}{subsubsection.3.5.6}% 
-\contentsline {paragraph}{I4: Cambiar el contenido relativo al ancho de pantalla}{15}{paragraph*.27}% 
+\contentsline {paragraph}{D1: Modelo de p\IeC {\'a}gina}{15}{paragraph*.26}% 
+\contentsline {paragraph}{D7: Estilo de pir\IeC {\'a}mide invertida}{16}{paragraph*.27}% 
+\contentsline {paragraph}{D9: T\IeC {\'\i }tulo de HTML distinguibles}{16}{paragraph*.28}% 
+\contentsline {subsubsection}{\numberline {3.5.4}E: Construyendo confianza y credibilidad}{16}{subsubsection.3.5.4}% 
+\contentsline {paragraph}{E1: Marca}{16}{paragraph*.29}% 
+\contentsline {paragraph}{E5: Sobre Nosotros}{16}{paragraph*.30}% 
+\contentsline {subsubsection}{\numberline {3.5.5}H: Ayudando a completar tareas}{16}{subsubsection.3.5.5}% 
+\contentsline {paragraph}{H2: Iniciar Sesi\IeC {\'o}n/ Nueva cuenta}{16}{paragraph*.31}% 
+\contentsline {paragraph}{H3: Cuenta de Invitado}{16}{paragraph*.32}% 
+\contentsline {paragraph}{H10: Formularios claros}{16}{paragraph*.33}% 
+\contentsline {subsubsection}{\numberline {3.5.6}I: Definiendo composiciones efectivas de p\IeC {\'a}ginas}{16}{subsubsection.3.5.6}% 
+\contentsline {paragraph}{I4: Cambiar el contenido relativo al ancho de pantalla}{16}{paragraph*.34}% 
 \contentsline {subsubsection}{\numberline {3.5.7}K: Haciendo la navegaci\IeC {\'o}n f\IeC {\'a}cil}{16}{subsubsection.3.5.7}% 
-\contentsline {paragraph}{K2: Barra de navegaci\IeC {\'o}n}{16}{paragraph*.28}% 
-\contentsline {paragraph}{K4: Action Buttons}{16}{paragraph*.29}% 
-\contentsline {paragraph}{K5: Botones de alta visibilidad}{16}{paragraph*.30}% 
-\contentsline {paragraph}{K8: Link externo}{16}{paragraph*.31}% 
-\contentsline {paragraph}{K9: Descriptivo}{16}{paragraph*.32}% 
-\contentsline {paragraph}{K11: Lenguaje familiar}{16}{paragraph*.33}% 
-\contentsline {section}{\numberline {4}Tecnolog\IeC {\'\i }as}{17}{section.4}% 
-\contentsline {subsection}{\numberline {4.1}Desarrollo Web}{17}{subsection.4.1}% 
-\contentsline {subsection}{\numberline {4.2}Boostrap}{17}{subsection.4.2}% 
-\contentsline {subsection}{\numberline {4.3}Summernote}{17}{subsection.4.3}% 
-\contentsline {subsection}{\numberline {4.4}Widget Twitter y Google Calendar}{17}{subsection.4.4}% 
-\contentsline {subsection}{\numberline {4.5}Navegores}{17}{subsection.4.5}% 
+\contentsline {paragraph}{K2: Barra de navegaci\IeC {\'o}n}{16}{paragraph*.35}% 
+\contentsline {paragraph}{K4: Action Buttons}{17}{paragraph*.36}% 
+\contentsline {paragraph}{K5: Botones de alta visibilidad}{17}{paragraph*.37}% 
+\contentsline {paragraph}{K8: Link externo}{17}{paragraph*.38}% 
+\contentsline {paragraph}{K9: Descriptivo}{17}{paragraph*.39}% 
+\contentsline {paragraph}{K11: Lenguaje familiar}{17}{paragraph*.40}% 
+\contentsline {section}{\numberline {4}Tecnolog\IeC {\'\i }as}{18}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Desarrollo Web}{18}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Boostrap}{18}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Summernote}{18}{subsection.4.3}% 
+\contentsline {subsection}{\numberline {4.4}Widget Twitter y Google Calendar}{18}{subsection.4.4}% 
+\contentsline {subsection}{\numberline {4.5}Navegores}{18}{subsection.4.5}% 
