@@ -26,6 +26,7 @@
 % Cuadros de colores
 \usepackage{tcolorbox}
 \usepackage{wrapfig}
+\usepackage{hyperref}
 
 \newtcolorbox{boxAntonio}[2]
 {colback=#2!5!white,colframe=uc3mDarkBlue,fonttitle=\bfseries,title=#1, flushleft title, width=\linewidth, height=5.7cm}
@@ -342,9 +343,9 @@ Este apartado no tiene desarrollado el contenido actualmente
 En este apartado, se muestra información acerca de los cursos que se imparten en el recinto de patinaje. Los administradores tienen permiso para eliminar contenido mediante el botón habilitado.
 
 \paragraph{Sobre Nosotros}
-En esta sección se muestran dos posibilidades, una que es un formulario de contacto en caso de querer comunicarse con el club. Actualmente, no envía correo porque no tiene una base de datos para poder realizar estas peticiones.
+En esta sección se muestran tenemos un formulario de contacto en caso de querer comunicarse con el club. Actualmente, no envía correo porque no tiene una base de datos para poder realizar estas peticiones.
 
-La otra posibilidad es club que muesta información de la historia del equipo, además de incluir imágenes.
+Y por otro lado, información de la historia del equipo, además de incluir imágenes.
 Los usuarios registrados pueden eliminar tarjetas de información.
 
 \paragraph{Usuario}
@@ -471,12 +472,21 @@ A continuación, se expondrán algunos de los patrones que se han tenido en cuen
 \newpage
 
 \section{Tecnologías}
+\subsection{GitHub}
+Para el control de versiones hemos usado git, a través de la plataforma GitHub. Respositorio: \url{https://github.com/Pheithar/FanFenix}
 \subsection{Desarrollo Web}
 Hemos usado el sistema de etiquetas HTML5, para darle estilo CSS3 y por último JavaScript.
 \subsection{Boostrap}
 Usada la versión 4.3, modificada para que se adapte a nuestras necesidades.
+
+Para evitar modificaciones que no deseábamos, hemos modificado el archivo \textit{boostrap.css}, entre las líneas 155 y 178, se han comentado para que los tags 'a' se queden a nuestro gusto.
 \subsection{Summernote}
-Hemos usado la última versión de este framework, pero hemos tenido que arreglar un bug que se producía al poner vídeos incrustados. Por ello, se trata de una versión modificada.
+Hemos usado la última versión de este framework, pero hemos tenido que arreglar un bug que se producía al poner vídeos incrustados. Por ello, se trata de una versión modificada. La línea modificada es la línea 7018 del archivo \textit{summernote.js}.
+
+Original: \textbf{!.attr('src', '//www.youtube.com/embed/' + youtubeId + (start > 0 ? '?start=' + start : ''))}
+
+Nueva: \textbf{+.attr('src', 'https://www.youtube.com/embed/' + youtubeId + (start > 0 ? '?start=' + start : ''))}
+
 \subsection{Widget Twitter y Google Calendar}
 Usados en la página principal para realizar un calendario sencillo y fácilmente usable. Además, acceso directo a los últimos tweets de club \textit{CPL Madrid}.
 \subsection{Navegores}
