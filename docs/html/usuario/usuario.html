@@ -11,14 +11,23 @@
    <link rel="stylesheet" type="text/css" href="../../style/style.css">
    <link rel="stylesheet" type="text/css" href="../../style/noticias.css">
 
-   <!-- include libraries(jQuery, bootstrap) -->
-   <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
-   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+   <!-- JQUERY -->
+   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
    <!-- javascript   -->
    <script src="../../script/header_footer.js"></script>
-   <script src="../../script/crearNoticia.js"></script>
+   <script src="../../script/sobreNosotros.js"></script>
+
+   <!--boostrap-->
+     <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+     <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 
 
@@ -141,51 +150,6 @@
         </div>
 
         </form>
-      </div>
-
-
-
-      <!--FORM1-->
-      <div class="contenedorForm contenidoAbout">
-        <form id="contactForm" >
-        <!-- method="post" action="../../php/form-to-email.php"> -->
-
-          <div class="row">
-           <!--Nombre-->
-           <label for="usr">Datos:</label> <br>
-           <input type="text" id="name" name = "name" placeholder="Introduzca su nombre" size="35" required="true">
-          </div>
-          <!--Email para contactar-->
-          <div class="row">
-             <label class="" for="email">Correo:</label> <br>
-             <input type="email" id="email" name = "email" placeholder="Introduzca su email" size="35" required="true" aria-describedby="emailHelp">
-              <span class="help-block">Los usamos para ponernos en contacto contigo.</span>
-           </div>
-
-          <!--Elegir opciones-->
-          <div class="row">
-            <label for="motivo">Motivo</label> <br>
-            <select class="" id="motivo" name = "motivo">
-              <option value = "none" selected>Selecciona un motivo</option>
-              <option value = "Indicidencia2">Incidencia2</option>
-              <option value = "Indicidencia3">Incidencia3</option>
-              <option value = "Indicidencia4">Incidencia4</option>
-              <option value = "Indicidencia5">Incidencia5</option>
-            </select>
-          </div>
-
-          <!--Texto para enviar-->
-          <div class="">
-            <label for="message">Exponga la incidencia</label><br>
-            <textarea id="incidencia" name="incidencia" rows="8" cols="80" required></textarea>
-          </div>
-          <!--Botón enviar-->
-          <div>
-            <button type="submit" id="submitFormContact" class="myButton btn" >Enviar</button>
-          </div>
-
-        </form>
-
       </div>
 
 
