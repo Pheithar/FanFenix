@@ -26,6 +26,7 @@
 % Cuadros de colores
 \usepackage{tcolorbox}
 \usepackage{wrapfig}
+\usepackage{hyperref}
 
 \newtcolorbox{boxAntonio}[2]
 {colback=#2!5!white,colframe=uc3mDarkBlue,fonttitle=\bfseries,title=#1, flushleft title, width=\linewidth, height=5.7cm}
@@ -311,13 +312,51 @@ En nuestro caso, al desarrollar un proyecto diferente al resto de compañeros, n
 
 \subsection{Implementación}
 Vamos a desarrollar brevemente el reparto de tareas y el flujo de trabajo que se ha llevado a cabo.
+
+\textbf{NOTA:} Para iniciar sesión, usar \textbf{Usuario} \textit{FanFenix} y \textbf{Contraseña} \textit{admin}.
+
 \subsubsection{Colores}\label{paleta}
-Uno de los primeros pasos fue la elección de colores que siguieran la estética del club al que representa el sitio web, pero siguiendo los principios de usar tres colores básicos y dos extra que deriven de ellos. Para ello, hemos usado href{}{software externo} para la creación de la paleta.
+Uno de los primeros pasos fue la elección de colores que siguieran la estética del club al que representa el sitio web, pero siguiendo los principios de usar tres colores básicos y dos extra que deriven de ellos. Para ello, hemos usado software externo para la creación de la paleta.
 
 \subsubsection{Estructura}
-Tras realizar una href{}{encuesta} y hablar con el cliente, \textbf{el club CPL Madrid}, tuvo que rediseñarse la barra de navegación y añadir un apartado extra que el cliente consideraba imprescindible. Además, la encuesta nos permitió enfocar el desarrollo hacia las zonas que necesitaban ser más púlidas y que tenían que tener funcionalidad.
+Tras realizar una encuesta y hablar con el cliente, \textbf{el club CPL Madrid}, tuvo que rediseñarse la barra de navegación y añadir un apartado extra que el cliente consideraba imprescindible. Además, la encuesta nos permitió enfocar el desarrollo hacia las zonas que necesitaban ser más púlidas y que tenían que tener funcionalidad.
 
 Por otro lado, en el apartado de noticias los filtros de noticias fueron eliminado a petición del cliente. Además, se nos puso como requisito crear un superusuario que pudiera manejar al resto de usuarios y administralos. Esta funcionalidad no ha sido completada, puesto que tiene que ser desarrollado con servidores a los cuales todavía no nos han permitido el acceso y por tanto el desarrollo del \textit{back-end} no ha sido posible.
+
+A continuación, se explicarán las secciones que presenta el sitio web y las que han sido desarrolladas se explicarán en mayor profundidad.
+
+\paragraph{Index}
+Se trata de la página principal del sitio, en ella se muestran las últimas noticias subidas al sitio. En el carousel se indican las tres últimas y posteriormente aparecen las dos siguientes.
+En el lateral se muestran elementos de utilidad para el usuario, un apartado de destacados(modificable por los administradores), enlaces a las federaciones de Hockey Linea, el calendario de eventos y redes sociales.
+\paragraph{Noticias}
+Aquí se añaden las noticias creadas, en esta sección se muestra un resumen de las noticias y el enlace para leerla por completo.
+
+Los administradores podrán ver un botón para crear una nueva noticia, que lleva a otra página especial para crear noticias. Actualmente, se crea una previsualización de la noticia, pero no permite publicarla. Además, si mientras se crea la noticia se cierra la sesión, redirige a la página principal puesto que solo si eres administrador tienes permiso para crear entradas nuevas.
+Los administradores también pueden eliminar noticias mediante el botón de eliminar que se muestra al Iniciar Sesión.
+\paragraph{Temporada}
+Este apartado no tiene desarrollado el contenido actualmente
+
+\paragraph{Equipo}
+Este apartado no tiene desarrollado el contenido actualmente
+
+\paragraph{Patinaje}
+En este apartado, se muestra información acerca de los cursos que se imparten en el recinto de patinaje. Los administradores tienen permiso para eliminar contenido mediante el botón habilitado.
+
+\paragraph{Sobre Nosotros}
+En esta sección se muestran tenemos un formulario de contacto en caso de querer comunicarse con el club. Actualmente, no envía correo porque no tiene una base de datos para poder realizar estas peticiones.
+
+Y por otro lado, información de la historia del equipo, además de incluir imágenes.
+Los usuarios registrados pueden eliminar tarjetas de información.
+
+\paragraph{Usuario}
+Este apartado, muestra un formulario dividos en varias partes. En estas se permite cambiar el nombre de usuario y la contraseña del administrador actual. Además, esta cuenta puede eliminarse.
+
+Desde el usuario, se pueden crear más administradores de la web para distribuirlos a más personas.
+
+Actualmente, para esta entrega, no es funcional ya que requiere de una base de datos para manejar los usuarios nuevos, así como los cambios.
+
+
+
 
 \subsubsection{Flujo de trabajo}
 \paragraph{Proyecto}
@@ -433,12 +472,21 @@ A continuación, se expondrán algunos de los patrones que se han tenido en cuen
 \newpage
 
 \section{Tecnologías}
+\subsection{GitHub}
+Para el control de versiones hemos usado git, a través de la plataforma GitHub. Respositorio: \url{https://github.com/Pheithar/FanFenix}
 \subsection{Desarrollo Web}
 Hemos usado el sistema de etiquetas HTML5, para darle estilo CSS3 y por último JavaScript.
 \subsection{Boostrap}
 Usada la versión 4.3, modificada para que se adapte a nuestras necesidades.
+
+Para evitar modificaciones que no deseábamos, hemos modificado el archivo \textit{boostrap.css}, entre las líneas 155 y 178, se han comentado para que los tags 'a' se queden a nuestro gusto.
 \subsection{Summernote}
-Hemos usado la última versión de este framework, pero hemos tenido que arreglar un bug que se producía al poner vídeos incrustados. Por ello, se trata de una versión modificada.
+Hemos usado la última versión de este framework, pero hemos tenido que arreglar un bug que se producía al poner vídeos incrustados. Por ello, se trata de una versión modificada. La línea modificada es la línea 7018 del archivo \textit{summernote.js}.
+
+Original: \textbf{!.attr('src', '//www.youtube.com/embed/' + youtubeId + (start > 0 ? '?start=' + start : ''))}
+
+Nueva: \textbf{+.attr('src', 'https://www.youtube.com/embed/' + youtubeId + (start > 0 ? '?start=' + start : ''))}
+
 \subsection{Widget Twitter y Google Calendar}
 Usados en la página principal para realizar un calendario sencillo y fácilmente usable. Además, acceso directo a los últimos tweets de club \textit{CPL Madrid}.
 \subsection{Navegores}
