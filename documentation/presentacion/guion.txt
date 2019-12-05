@@ -1,0 +1,38 @@
+1º PRESENTAR EL PROYECTO
+
+El proyecto consiste en una remodelación de la página web del club de hockey línea CPL Madrid (Fénix).
+Para esta entrega solo esatamos presentando la parte de front-end.
+Quizá mostrar la página anterior y mostrar los fallos.
+
+Comentar que el objetivo total del proyecto es hacerlo completamente funcional, y que para ello necesitamos tambien back-end.
+
+Contar que hablamos con el club, y que hicimos una encuesta con los ususarios de la página actual
+
+2º MOSTRAR EL REPOSITORIO DE GITHUB
+
+Abrir el github y mostrar un pooc por encima el readMe, mostrar el proyecto y contar todo lo que falta por hacer.
+Explicar que hemos usado bootstrap y summernote. Decir que si alguien quiere ayudar, que cualquiera puede hacer aportaciones, y que si alguien quiere ayudarnos con el proyecto total, que nos lo comente.
+
+3º ABRIR LA PÁGINA WEB A TRAVÉS DE pheithar.github.io/FanFenix/
+
+ - Presentar el index, dde forma genérica:
+	 - Mostrar el carrusel
+	 - Mostrar las noticias secundarias
+ 	 - Mostar los links, y el calendario de Google
+ - Mostar el apartado de noticias
+	 - No entrar en ninguna noticia de momento
+ - Mostrar los apartados de Patinaje y SObre Nosotros
+
+Explicar como toda la página sigue el mismo estilo, mostrar el header y footer (remarcar que el header cambia al hacer scroll)
+
+Decir todo lo que queda en work in progress
+
+4º HACER CASOS DE USO
+
+ - Caso de uso de usuario que quiere saber cuando es su proximo partido, guardarselo en su calendario, y luego entrar en la última noticia del club
+
+ - Caso de uso de usuario que se loggea, y tiene que borrar la noticia anterior, y luego crear una nueva
+
+	 - Meter la noticia de ejemplo para no perder tiempo
+
+ 
