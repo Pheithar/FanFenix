@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CPLM Fénix</title>
+
+    <link rel="shortcut icon" href="images/Fenix.png">
+
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="style/header_footer.css">
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- javascript-->
+    <script src="script/header_footer.js"></script>
+    <script src="script/index.js"></script>
+
+    <!-- JSON -->
+    <script type="text/javascript" src="users/testUser.json"></script>
+
+    <!--boostrap-->
+      <!-- Latest compiled and minified CSS -->
+      <!--
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      -->
+      <link rel="stylesheet" type="text/css" href="style/bootstrap.css">
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/4.3.1/jquery.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+      <script src="script/bootstrap.js"></script>
+
+    <!--diseño responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Widget twitter--->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div id="logoTitleHeader">
+        <p class="noAdmin sesion" onclick="showSignIn();">Iniciar Sesión</p>
+        <p class="soloAdmin sesion" onclick="closeSesion()"> Cerrar Sesión</p>
+        <a href="index.html" id = "logoFenixEnlace" >
+          <img src="images/Fenix.png" alt="Logo fénix" id = "logoFenix">
+        </a>
+        <h1 id="titleNav">CPL Madrid Fénix</h1>
+      </div>
+
+      <div id="iniciarSesionPopUp" >
+        <form>
+          <input type="text" placeholder="Usuario" id="iniciarSesionUser">
+          <p></p>
+          <input type="password" placeholder="Contraseña" id="iniciarSesionContrasseña">
+          <p></p>
+          <p id="showLogInError">Datos Incorrectos</p>
+          <p></p>
+          <button type="button" class="myButton" onclick="checkSubmit()">Iniciar Sesión</button>
+          <p id="cerrarIniciarSesion" onclick="hideSignIn()"> Cancelar</p>
+        </form>
+
+      </div>
+
+      <nav>
+        <a href="index.html">
+          <img src="images/Fenix.png" alt="Logo fénix" id="logoFenixShrink">
+        </a>
+        <ul>
+          <li><a href="html/noticias/noticias.html" class="textoSeleccionable">Noticias</a></li>
+          <li><a class="textoSeleccionable">Temporada</a>
+            <ul>
+              <li><a href="html/temporada/clasificacion.html">Clasificación</a></li>
+              <li><a href="html/temporada/calendarios.html">Calendarios</a></li>
+              <li><a href="html/temporada/ligas.html">Ligas</a></li>
+              <li><a href="html/temporada/estadisticas.html">Estadísticas</a></li>
+            </ul>
+          </li>
+          <li><a class="textoSeleccionable">Equipo</a>
+            <ul>
+              <li><a href="html/equipo/horarios.html">Horarios</a></li>
+              <li><a href="html/equipo/media.html">Media</a></li>
+            </ul>
+          </li>
+          <li><a href="html/patinaje/patinaje.html" class="textoSeleccionable" >Patinaje</a></li>
+          <li><a class="textoSeleccionable">Sobre Nosotros</a>
+            <ul>
+              <li><a href="html/sobreNosotros/contacto.html">Contacto</a></li>
+              <li><a href="html/sobreNosotros/club.html">Club</a></li>
+            </ul>
+          </li>
+          <li><a href="html/usuario/usuario.html" class="textoSeleccionable soloAdmin" >Usuario</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-9">
+            <div class="contenidoPrincipal">
+
+              <div class="row">
+                <!--noticais principales-->
+
+                <section class="awSlider">
+
+                  <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!--
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul> -->
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                      <!-- Indicators-->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      </ol>
+
+                      <div class="carousel-item active">
+                        <a href="html/noticias/noticia1.html">
+                          <img id="imagenCarrusel1" class="d-block w-100" src="images/ejemplos/noticia1.jpeg" alt="Noticia1">
+                          <div class="carousel-caption">
+                            <b>Primera sede liga Élite Infantil. Merecimos más </b>
+                        </a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="html/noticias/noticia2.html">
+                          <img id="imagenCarrusel2" class="d-block w-100" src="images/ejemplos/noticia2.png" alt="Noticia1">
+                          <div class="carousel-caption">
+                            <b>Novena jornada de liga autonómica</b>
+                        </a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="html/noticias/noticia1.html">
+                          <img id="imagenCarrusel2" class="d-block w-100" src="images/ejemplos/noticia3.jpg" alt="Noticia1">
+                          <div class="carousel-caption">
+                            <b> 6 jornada de liga autonómica (La jornada de los penaltis)</b>
+                        </a>
+                      </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                  </div>
+                </section>
+
+
+              </div> <!--row-->
+
+
+              <div class="noticiasSecundarias">
+
+
+                <div class="row">
+                  <div class="infoContenedor">
+                    <div class="titleContenedorNoticia">
+                      <a href="html/noticias/noticia1.html">
+                        <h1 class="tituloNoticia">  Séptima jornada de liga autonómica con goleadas en muchos partidos</h1>
+                      </a>
+                    </div>
+                    <div class="contenidoNoticia">
+                      <p>
+
+No comenzó muy bien esta jornada de liga. El sábado solo se ganó uno de los cuatro partidos que disputamos, pero mejoró el domingo que se gano la mayoría y algunos con goleada.
+En Benjamín: El sábado el B ganó en casa su partido por la mínima contra Mamuts, en un partido en el que Fénix tiró muchísimo a puerta pudiendo materializar solo tres goles y el A también en casa ganó por goleada a Lobos el domingo...
+
+                      </p>
+                      <a class="myButton botonExpandir" href="html/noticias/noticia1.html">
+                        Seguir Leyendo
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="infoContenedor">
+                    <div class="titleContenedorNoticia">
+                      <a href="html/noticias/noticia1.html">
+                        <h1 class="tituloNoticia">  Séptima jornada de liga autonómica</h1>
+                      </a>
+                    </div>
+                    <div class="contenidoNoticia">
+                      <p>
+                        Nueva jornada de liga autonómica este fin de semana, el sábado se jugarán 4 partidos, el infantil C, el Benjamín B , el alevín B y el infantil B, que  jugaran como locales contra Pingüinos, Mamuts, Mamuts y Sobre8ruedas respectivamente.
+                      </p>
+                      <a class="myButton botonExpandir" href="html/noticias/noticia1.html">
+                        Seguir Leyendo
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>  <!--noticiasSecundarias-->
+
+            </div> <!--contenidoPrincipal-->
+          </div>  <!--columna-->
+
+          <div class="col-sm-3">
+            <div class="contenidoSecundario">
+
+
+              <div class="row">
+                <div class="logos">
+                  <h4>Redes Sociales</h4>
+                  <span>
+                    <a href="https://www.youtube.com/user/FanfenixTV" target="_blank">
+                      <img src="images/redesSociales/001-youtube.png" alt="logoYoutube">
+                    </a>
+                  </span>
+                  <span>
+                    <a href="https://www.instagram.com/fanfenix/?hl=es" target="_blank">
+                      <img src="images/redesSociales/029-instagram.png" alt="logoInstagram">
+                    </a>
+                  </span>
+                  <span>
+                    <a href="https://twitter.com/Fanfenix" target="_blank">
+                      <img src="images/redesSociales/008-twitter.png" alt="logoTwitter">
+                    </a>
+                  </span>
+                  <span>
+                    <a href="https://www.facebook.com/cplmadrid" target="_blank">
+                      <img src="images/redesSociales/036-facebook.png" alt="logoFacebook">
+                    </a>
+                  </span>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="infoContenedor">
+                  <div class="titleContenedorNoticia">
+                    <h1 class="tituloNoticia">Destacados</h1>
+                  </div>
+                  <div class="contenidoNoticia">
+                    <a id = "enlNoticiaDestacada" target="_blank" href="https://www.filmaffinity.com/es/film254384.html">
+                      <p id="titNoticiaDestacada">
+                        <b>PELICULA: RED ARMY</b>
+                      </p>
+                      <img src="images/redArmy.jpeg" alt="Imagen Noticia Destacada" id="imgNoticiaDestacada">
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                  <div  id="federaciones">
+                    <div class="titleContenedorNoticia">
+                      <h3 class="tituloNoticia">Federaciones</h3>
+                    </div>
+                    <a href="http://www.hockeylinea.fep.es/" title = "Federación Española" target= "_blank" >
+                      <img src="images/fep.png" alt="Logo Federación Española Patinaje">
+                    </a>
+                    <a href="http://www.hockeylinea.fmp.es/" title = "Federación Madrileña" target="_blank">
+                      <img src="images/fmp.png" alt="Logo Federación Madrileña Patinaje">
+                    </a>
+                </div>
+              </div>
+
+              <div class="row">
+
+                  <aside id="calendar">
+                    <iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=2&amp;bgcolor=%23eeeeee&amp;ctz=Europe%2FMadrid&amp;showTitle=1&amp;showDate=1&amp;showTabs=0&amp;showTz=0&amp;showCalendars=0&amp;showNav=0&amp;title=Calendario%20FanFenix&amp;showPrint=0&amp;mode=AGENDA&amp;src=ZmFuZmVuaXhAZ21haWwuY29t&amp;color=%23333333"
+                    style="border-width:0" width="280" height="500" frameborder="0" scrolling="no"></iframe>
+                  </aside>
+
+
+              </div>
+
+              <div class="row">
+                <div class="twitterWidget">
+                  <!--Widget de Twitter-->
+                  <a class="twitter-timeline" data-chrome="nofooter noborders" data-aria-polite="assertive" data-width="500"
+                  data-height="400" href="https://twitter.com/Fanfenix?ref_src=twsrc%5Etfw">
+                  </a>
+                </div>
+              </div>
+
+
+
+            </div><!--contenidoSecundario-->
+          </div> <!-- column-->
+        </div> <!--row-->
+      </div> <!--contenido-->
+
+
+
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="row d-flex justify-content-center">
+
+
+
+        <div class="logos">
+          <span>
+            <a href="https://www.youtube.com/user/FanfenixTV" target="_blank">
+              <img src="images/redesSociales/001-youtube.png" alt="logoYoutube">
+            </a>
+          </span>
+          <span>
+            <a href="https://www.instagram.com/fanfenix/?hl=es" target="_blank">
+              <img src="images/redesSociales/029-instagram.png" alt="logoInstagram">
+            </a>
+          </span>
+          <span>
+            <a href="https://twitter.com/Fanfenix" target="_blank">
+              <img src="images/redesSociales/008-twitter.png" alt="logoTwitter">
+            </a>
+          </span>
+          <span>
+            <a href="https://www.facebook.com/cplmadrid" target="_blank">
+              <img src="images/redesSociales/036-facebook.png" alt="logoFacebook">
+            </a>
+          </span>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="row d-flex justify-content-center">
+            <ul>
+              <li>
+                <a href="#" target="_blank">
+                  Contacto
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank">
+                  Nuestro Club
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Pheithar/FanFenix/issues" target="_blank">
+                  Reporte de errores
+                </a>
+              </li>
+            </ul>
+          </div>
+
+            <hr>
+
+          <div class="row row d-flex justify-content-center colaboradores">
+
+            <h5>COLABORADORES:</h5>
+          </div>
+          <div class="row row d-flex justify-content-center logoMadrid">
+            <a href="https://www.madrid.es/" target="_blank">
+              <img src="images/logoMadrid.png" alt="logoAyuntamientoMadrid">
+            </a>
+          </div>
+
+
+        <hr>
+
+        <div class="row d-flex justify-content-center">
+
+          <!-- Copyright -->
+          <div>© 2019 Copyright:
+            <a href="https://github.com/Pheithar/FanFenix" target="_blank">Github</a>
+          </div>
+          <!-- Copyright -->
+        </div>
+
+
+
+    </div><!--columna externa-->
+    </div> <!--row externa-->
+
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>

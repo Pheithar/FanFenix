@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CPLM Fénix</title>
+
+  <link rel="shortcut icon" href="../../images/Fenix.png">
+
+  <!--css-->
+  <link rel="stylesheet" type="text/css" href="../../style/header_footer.css">
+  <link rel="stylesheet" type="text/css" href="../../style/style.css">
+
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <!-- javascript   -->
+  <script src="../../script/header_footer.js"></script>
+  <script src="../../script/sobreNosotros.js"></script>
+
+  <!--boostrap-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+  <!--diseño responsive-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Widget twitter--->
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</head>
+<body>
+  <header id="header">
+    <div id="logoTitleHeader">
+      <p class="noAdmin sesion" onclick="showSignIn();">Iniciar Sesión</p>
+      <p class="soloAdmin sesion" onclick="closeSesion()"> Cerrar Sesión</p>
+      <a href="../../index.html" id = "logoFenixEnlace" >
+        <img src="../../images/Fenix.png" alt="Logo fénix" id = "logoFenix">
+      </a>
+      <h1 id="titleNav">CPL Madrid Fénix</h1>
+    </div>
+
+    <div id="iniciarSesionPopUp" >
+      <form>
+        <input type="text" placeholder="Usuario" id="iniciarSesionUser">
+        <p></p>
+        <input type="password" placeholder="Contraseña" id="iniciarSesionContrasseña">
+        <p></p>
+        <p id="showLogInError">Datos Incorrectos</p>
+        <p></p>
+        <button type="button" class="myButton" onclick="checkSubmit()">Iniciar Sesión</button>
+        <p id="cerrarIniciarSesion" onclick="hideSignIn()"> Cancelar</p>
+      </form>
+
+    </div>
+    <nav>
+      <a href="../../index.html">
+        <img src="../../images/Fenix.png" alt="Logo fénix" id="logoFenixShrink">
+      </a>
+      <ul>
+        <li><a href="../noticias/noticias.html" class="textoSeleccionable">Noticias</a></li>
+        <li><a class="textoSeleccionable ">Temporada</a>
+          <ul>
+            <li><a href="../temporada/clasificacion.html">Clasificación</a></li>
+            <li><a href="../temporada/calendarios.html">Calendarios</a></li>
+            <li><a href="../temporada/ligas.html">Ligas</a></li>
+            <li><a href="../temporada/estadisticas.html">Estadísticas</a></li>
+          </ul>
+        </li>
+        <li><a class="textoSeleccionable opcionElegida">Equipo</a>
+          <ul>
+            <li><a href="../equipo/horarios.html">Horarios</a></li>
+            <li><a href="../equipo/media.html">Media</a></li>
+          </ul>
+        </li>
+        <li><a href="../patinaje/patinaje.html" class="textoSeleccionable ">Patinaje</a></li>
+        <li><a class="textoSeleccionable">Sobre Nosotros</a>
+          <ul>
+            <li><a href="../sobreNosotros/contacto.html" >Contacto</a></li>
+            <li><a href="../sobreNosotros/club.html" >Club</a></li>
+          </ul>
+        </li>
+          <li><a href="../usuario/usuario.html" class="textoSeleccionable soloAdmin" >Usuario</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+    <main>
+      <div class="titleName">
+        <h3>
+          Horarios
+        </h3>
+      </div>
+
+      <div class="contenidoPatinaje" >
+
+        <div class="infoContenedor">
+          <h1>WORK IN PROGRESS</h1>
+          <div class="imgNoticia">
+            <img src="../../images/progress.jpeg" alt="TRABAJO EN PROGRESO">
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+      <div class="logos">
+        <span>
+          <a href="https://www.youtube.com/user/FanfenixTV" target="_blank">
+            <img src="../../images/redesSociales/001-youtube.png" alt="logoYoutube">
+          </a>
+        </span>
+        <span>
+          <a href="https://www.instagram.com/fanfenix/" target="_blank">
+            <img src="../../images/redesSociales/029-instagram.png" alt="logoInstagram">
+          </a>
+        </span>
+        <span>
+          <a href="https://twitter.com/Fanfenix" target="_blank">
+            <img src="../../images/redesSociales/008-twitter.png" alt="logoTwitter">
+          </a>
+        </span>
+        <span>
+          <a href="https://www.facebook.com/cplmadrid" target="_blank">
+            <img src="../../images/redesSociales/036-facebook.png" alt="logoFacebook">
+          </a>
+        </span>
+      </div>
+
+      <div class="column">
+        <div class="row">
+          <ul>
+            <li>
+              <a href="../sobreNosotros/contacto.html" >
+                Contacto
+              </a>
+            </li>
+            <li>
+              <a href="../sobreNosotros/club.html" >
+                Nuestro Club
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Pheithar/FanFenix/issues" target="_blank">
+                Reporte de errores
+              </a>
+            </li>
+          </ul>
+        </div>
+
+          <hr>
+
+        <div class="row logoMadrid">
+          <h5>COLABORADORES:</h5>
+          <a href="https://www.madrid.es/" target="_blank">
+            <img src="../../images/logoMadrid.png" alt="logoAyuntamientoMadrid">
+          </a>
+        </div>
+
+
+      <hr>
+
+      <div class="row">
+
+        <!-- Copyright -->
+        <div>© 2019 Copyright:
+          <a href="https://github.com/Pheithar/FanFenix" target="_blank">Github</a>
+        </div>
+        <!-- Copyright -->
+      </div>
+
+    </div>
+
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>

@@ -1,0 +1,133 @@
+#calendar {
+position: relative;
+padding-bottom: 75%;
+
+overflow: hidden;
+
+background-color: white;
+display: inline;
+z-index:2;
+-moz-box-shadow: 0 0 4px #444;
+-webkit-box-shadow: 0 0 4px #444;
+box-shadow: 0 0 15px rgba(1, 1, 1, .5);
+text-align: left;
+border-radius: 10px;
+background-color: white;
+padding: 10px 10px 10px 10px;
+margin: 15px 0px 15px 0px;
+
+}
+
+#calendar iframe {
+padding: 0 0 0 0;
+
+}
+
+#federaciones{
+  background-color: white;
+  display: inline;
+  z-index:2;
+  -moz-box-shadow: 0 0 4px #444;
+  -webkit-box-shadow: 0 0 4px #444;
+  box-shadow: 0 0 15px rgba(1, 1, 1, .5);
+  text-align: left;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  margin: 15px 0px 15px 0px;
+}
+
+#federaciones img{
+  width: 49%;
+  z-index:2;
+  -moz-box-shadow: 0 0 4px #444;
+  -webkit-box-shadow: 0 0 4px #444;
+  box-shadow: 0 0 15px rgba(1, 1, 1, .5);
+  text-align: left;
+  border-radius: 10px;
+  background-color: white;
+
+  border-radius: 10px;
+  height: auto
+}
+
+.twitterWidget{
+
+}
+
+/*INDEX STUFF*/
+.column{
+  vertical-align: top;
+  display: inline-block;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+
+}
+
+.container{
+  text-align: center;
+}
+.contenidoPrincipal{
+  padding : 0 3vw 0 0vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenidoSecundario{
+  padding : 0 0vw 0 0vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*------------------ Carousel -----------------------*/
+
+section.awSlider .carousel{
+  display:table;
+  z-index:2;
+  -moz-box-shadow: 0 0 4px #444;
+	-webkit-box-shadow: 0 0 4px #444;
+	box-shadow: 0 0 15px rgba(1,1,1,.5);
+}
+
+/*evitar que se pueda arrastrar la foto*/
+section.awSlider img{
+  pointer-events: none;
+}
+.carousel-caption{
+  border-radius: 20px;
+  /*background-color: rgba(0, 0, 0, 0.1);
+*/
+  font-size: 300%;
+}
+
+#imagenCarrusel1{
+  width: 50rem !important;
+  height: 25rem;
+}
+
+#imagenCarrusel2{
+  width: 50rem !important;
+  height: 25rem;
+}
+
+#imagenCarrusel3{
+  width: 50rem !important;
+  height: 25rem;
+}
+
+/*------------------ Carousel -----------------------*/
+
+
+.noticiasSecundarias{
+  margin-top: 6vh;
+}
+#imgNoticiaDestacada{
+  width: 100%;
+  height: auto;
+}

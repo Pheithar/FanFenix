@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CPLM Fénix</title>
+
+  <link rel="shortcut icon" href="../../images/Fenix.png">
+
+  <!--css-->
+  <link rel="stylesheet" type="text/css" href="../../style/header_footer.css">
+  <link rel="stylesheet" type="text/css" href="../../style/estiloNoticia.css">
+  <link rel="stylesheet" type="text/css" href="../../style/noticias.css">
+  <link rel="stylesheet" type="text/css" href="../../style/style.css">
+
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <!-- javascript   -->
+  <script src="../../script/header_footer.js"></script>
+  <script src="../../script/sobreNosotros.js"></script>
+
+  <!--boostrap-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <!--diseño responsive-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Widget twitter--->
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</head>
+  <body>
+    <header id="header">
+      <div id="logoTitleHeader">
+        <p class="noAdmin sesion" onclick="showSignIn();">Iniciar Sesión</p>
+        <p class="soloAdmin sesion" onclick="closeSesion()"> Cerrar Sesión</p>
+        <a href="../../index.html" id = "logoFenixEnlace" >
+          <img src="../../images/Fenix.png" alt="Logo fénix" id = "logoFenix">
+        </a>
+        <h1 id="titleNav">CPL Madrid Fénix</h1>
+      </div>
+
+      <div id="iniciarSesionPopUp" >
+        <form>
+          <input type="text" placeholder="Usuario" id="iniciarSesionUser">
+          <p></p>
+          <input type="password" placeholder="Contraseña" id="iniciarSesionContrasseña">
+          <p></p>
+          <p id="showLogInError">Datos Incorrectos</p>
+          <p></p>
+          <button type="button" class="myButton" onclick="checkSubmit()">Iniciar Sesión</button>
+          <p id="cerrarIniciarSesion" onclick="hideSignIn()"> Cancelar</p>
+        </form>
+
+      </div>
+      <nav>
+        <a href="../../index.html">
+          <img src="../../images/Fenix.png" alt="Logo fénix" id="logoFenixShrink">
+        </a>
+        <ul>
+          <li><a href="../noticias/noticias.html" class="textoSeleccionable opcionElegida">Noticias</a></li>
+          <li><a class="textoSeleccionable">Temporada</a>
+            <ul>
+              <li><a href="../temporada/clasificacion.html">Clasificación</a></li>
+              <li><a href="../temporada/calendarios.html">Calendarios</a></li>
+              <li><a href="../temporada/ligas.html">Ligas</a></li>
+              <li><a href="../temporada/estadisticas.html">Estadísticas</a></li>
+            </ul>
+          </li>
+          <li><a class="textoSeleccionable">Equipo</a>
+            <ul>
+              <li><a href="../equipo/horarios.html">Horarios</a></li>
+              <li><a href="../equipo/media.html">Media</a></li>
+            </ul>
+          </li>
+          <li><a href="../patinaje/patinaje.html" class="textoSeleccionable ">Patinaje</a></li>
+          <li><a class="textoSeleccionable">Sobre Nosotros</a>
+            <ul>
+              <li><a href="../sobreNosotros/contacto.html" >Contacto</a></li>
+              <li><a href="../sobreNosotros/club.html" >Club</a></li>
+            </ul>
+          </li>
+          <li><a href="../usuario/usuario.html" class="textoSeleccionable soloAdmin" >Usuario</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <div id="laGranNoticia">
+        <div class="infoContenedor">
+          <div class="titleContenedorNoticia">
+            <h1 class="tituloNoticia">  Primera sede liga Élite Infantil. Merecimos más </h1>
+          </div>
+          <div class="fecha">
+            1/12/2019 17:43
+          </div>
+          <div class="imgNoticia">
+            <img src="../../images/ejemplos/noticia1.jpeg" alt="Foto Noticia">
+          </div>
+          <div class="contenidoNoticia">
+            <p><span style="font-family: &quot;verdana&quot; , sans-serif;">En
+     general, esta primera sede de liga Élite infantil nos ha dado una idea
+    de nuestro nivel actual y de lo que podemos esperarnos del equipo. En el
+     primer partido los chicos y las chicas estuvieron muy solventes, y
+    supieron imponerse sin problemas a Torrevieja, aprovechando para
+    adaptarse a una pista con unas dimensiones muy distintas a las nuestras.
+     El segundo partido contra Rubí prometía ser muy complicado, y los
+    nuestros salieron a darlo todo. Fruto de ello el apretado resultado. Al
+    final ganaron quienes más querían ganar, nos pasó factura no creernos
+    capaces de hacerlo. A pesar de ello, el juego que pusieron en la pista
+    los Fénix es fruto de su buen trabajo estos meses, y es también
+    meritorio. Por último, caímos ante los locales, en el encuentro más
+    complicado de la sede, a pesar de no bajar los brazos en ningún momento
+    del partido. Con la primera victoria cumplimos con “lo esperado” de la
+    sede, pero disputar hasta el final con resultados tan parejos los dos
+    partidos restantes prueba que podemos pelear por la media tabla. Esto ha
+     motivado al vestuario, de modo que hasta la próxima sede se trabajará
+    más duro con el fin de pulir los errores que hemos visto, para llegar
+    con un equipo preparado para salir a ganar cualquier partido.</span>
+    <br>
+    <span style="font-family: &quot;verdana&quot; , sans-serif;"><b><i>Crónica: Juan Escudero</i></b></span><br>
+    <br>
+    <b><span style="font-family: &quot;verdana&quot; , sans-serif; font-size: large;">ÉLITE INFANTIL HALCONES DE TORREVIEJA 1 - 10 CPLV FÉNIX A</span></b></p><p><b><span style="font-family: &quot;verdana&quot; , sans-serif; font-size: large;"><br></span></b></p><p><br></p><div class="separator" style="clear: both; text-align: center;">
+    <a href="https://1.bp.blogspot.com/-RPg4YIekDvE/XeTG7OZAHqI/AAAAAAAAa-8/uf5kb7IcY1YbUhFNphbXz1kyDpmAmnZFQCLcBGAsYHQ/s1600/WhatsApp%2BImage%2B2019-11-30%2Bat%2B10.46.09%2B%25281%2529.jpeg" style="margin-left: 1em; margin-right: 1em;"><img data-original-height="599" data-original-width="1055" src="https://1.bp.blogspot.com/-RPg4YIekDvE/XeTG7OZAHqI/AAAAAAAAa-8/uf5kb7IcY1YbUhFNphbXz1kyDpmAmnZFQCLcBGAsYHQ/s640/WhatsApp%2BImage%2B2019-11-30%2Bat%2B10.46.09%2B%25281%2529.jpeg" width="640" height="362" border="0"></a></div>
+    <br>
+    <div class="separator" style="clear: both; text-align: center;">
+    </div>
+    <br>
+    <div style="text-align: justify;">
+    <span style="font-family: &quot;verdana&quot; , sans-serif;">Empezamos
+    la nacional élite jugando contra Halcones de Torrevieja un partido que
+    al principio se nos complico con un 1-1 con gol de Alonso q luego
+    remontamos con goles de Iker (6), Alonso (3)y Juancar(1); y asistencias
+    de Javi (1), Carlos (1), Alex (3) e Iker (2) ha sido un partido q hemos
+    jugado muy bien todos y hemos notado la mejoría en nuestro equipo&nbsp; .
+    Hemos empezado con buen pie en la Nacional, y&nbsp; vamos con muchas ganas
+    para continuar en esta liga.</span></div>
+    <div style="text-align: justify;">
+    <span style="font-family: &quot;verdana&quot; , sans-serif;">Gran trabajo chicos!!!</span></div>
+    <span style="font-family: &quot;verdana&quot; , sans-serif;"><br></span>
+    <span style="font-family: &quot;verdana&quot; , sans-serif;"><b><i>Crónica: Iker Bástarras</i></b></span><br>
+    <span style="font-family: &quot;verdana&quot; , sans-serif;"><b><i>Fotos:&nbsp;<a href="https://photos.app.goo.gl/wxcSrzuaXL6LDmL89">Lourdes Gayo</a></i></b></span><br>
+    <br>
+    <b><span style="font-family: &quot;verdana&quot; , sans-serif; font-size: large;">ÉLITE INFANTIL CPLM FÉNIX A 3 - 4 CENT PATINS</span></b><br>
+    <div class="separator" style="clear: both; text-align: center;">
+    <a href="https://1.bp.blogspot.com/-oXeYKpFCkQ0/XeKxp-UiDoI/AAAAAAAAd3I/Od0ff0jf0VY7iECqDJaUmDJjgBrX6t_2QCLcBGAsYHQ/s1600/WhatsApp%2BImage%2B2019-11-30%2Bat%2B18.03.581.jpeg" style="margin-left: 1em; margin-right: 1em;"><img data-original-height="701" data-original-width="935" src="https://1.bp.blogspot.com/-oXeYKpFCkQ0/XeKxp-UiDoI/AAAAAAAAd3I/Od0ff0jf0VY7iECqDJaUmDJjgBrX6t_2QCLcBGAsYHQ/s640/WhatsApp%2BImage%2B2019-11-30%2Bat%2B18.03.581.jpeg" width="640" height="478" border="0"></a></div>
+    <div style="text-align: justify;">
+    <span style="font-family: &quot;verdana&quot; , sans-serif;"><br></span></div>
+    <div style="text-align: justify;">
+    <span style="font-family: &quot;verdana&quot; , sans-serif;">Este
+    sábado, 30 de noviembre, a las 15:30 nuestro equipo élite infantil jugó
+    contra Rubí (cent patins). Fue un partido muy reñido y difícil para
+    nuestro equipo, que aún sin estar seguros de poder ganar, consiguieron
+    estrenar el marcador con un gol de Javier que hizo el 1-0.</span></div>
+    <div style="text-align: justify;">
+    <span style="font-family: &quot;verdana&quot; , sans-serif;"><br></span></div>
+    <div style="text-align: justify;">
+    <span style="font-family: &quot;verdana&quot; , sans-serif;">Unos minutos más tarde Iker tras una buena jugada consiguió tirar de lejos y anotar el 2-0.</span></div>
+    <div style="text-align: justify;">
+    <span style="font-family: &quot;verdana&quot; , sans-serif;"><br></span></div>
+    <div style="text-align: justify;">
+    <span style="font-family: &quot;verdana&quot; , sans-serif;">Después Rubí se puso las pilas y nos marcó gol a falta de 2 minutos del pitido final de la primera parte.</span></div>
+    <div style="text-align: justify;">
+    <span style="font-family: &quot;verdana&quot; , sans-serif;"><br></span></div>
+    <div style="text-align: justify;">
+    <span style="font-family: &quot;verdana&quot; , sans-serif;">Empezamos
+    la segunda parte anotando y subiendo el marcador a 3-1. Aguantamos muy
+    bien la segunda parte, hasta los últimos 5 minutos, que por los nervios
+    de fallar Rubí consiguió marcar haciendo un 3-2.</span></div>
+    <div style="text-align: justify;">
+    <span style="font-family: &quot;verdana&quot; , sans-serif;"><br></span></div>
+    <div style="text-align: justify;">
+    <span style="font-family: &quot;verdana&quot; , sans-serif;">Poco a poco
+     nos iban poniendo contra las cuerdas, hasta que 2 minutos antes de
+    acabar la segunda parte marcaron otro gol, haciendo así el 3-3.</span></div>
+    <div style="text-align: justify;">
+    <span style="font-family: &quot;verdana&quot; , sans-serif;"><br></span></div>
+    <div style="text-align: justify;">
+    <span style="font-family: &quot;verdana&quot; , sans-serif;">Nuestro
+    equipo estaba tan despistado y nervioso, que en el último segundo,
+    siendo Rubí 2 jugadores consiguieron remontar el partido.</span></div>
+    <div style="text-align: justify;">
+    <span style="font-family: &quot;verdana&quot; , sans-serif;"><br></span></div>
+    <div style="text-align: justify;">
+    <span style="font-family: &quot;verdana&quot; , sans-serif;">Este
+    partido nos ha ayudado a darnos cuenta de que no somos un equipo
+    perdedor, tras ir ganando a Rubí hasta el final nos hemos dado cuenta de
+     que somos unos ganadores y eso es lo que tenemos que demostrar o por lo
+     menos intentar.</span></div>
+    <br>
+    <span style="font-family: &quot;verdana&quot; , sans-serif;"><b><i>Crónica: Javier Álvarez</i></b></span><br>
+    <span style="font-family: &quot;verdana&quot; , sans-serif;"><b><i>Fotos:&nbsp;<a href="https://photos.app.goo.gl/7Jas21LSigjiFSMM6">Lourdes Gayo</a></i></b></span><br>
+    <br>
+    ÉLITE INFANTIL CPL VALLADOLID - CPLM FÉNIX<br>
+    <br>
+    <div class="separator" style="clear: both; text-align: center;">
+    <a href="https://1.bp.blogspot.com/-8Ucf0NfksB8/XeP-VYLbm_I/AAAAAAAAd5U/zSnw-E-oo98FHh3ZAVrXrO1ApZ5d2fbUgCLcBGAsYHQ/s1600/WhatsApp%2BImage%2B2019-11-30%2Bat%2B10.36.13%2B%25282%2529.jpeg" style="margin-left: 1em; margin-right: 1em;"><img data-original-height="648" data-original-width="864" src="https://1.bp.blogspot.com/-8Ucf0NfksB8/XeP-VYLbm_I/AAAAAAAAd5U/zSnw-E-oo98FHh3ZAVrXrO1ApZ5d2fbUgCLcBGAsYHQ/s640/WhatsApp%2BImage%2B2019-11-30%2Bat%2B10.36.13%2B%25282%2529.jpeg" width="640" height="480" border="0"></a></div>
+    <br>
+    <div style="text-align: justify;">
+    <span style="font-family: &quot;verdana&quot; , sans-serif;">Tercer
+    partido de la primera sede,un rival que sabíamos que no iba a ser fácil,
+     pero nuestro equipo iba a darlo todo. Empezamos el partido muy
+    igualado,luchando para conseguir la victoria , pasados unos minutos nos
+    marcaron gol y así acabamos la primera parte.En el descanso aprovechamos
+     para hablar del partido. Empezamos la segunda parte muy activos , hasta
+     que pasados algunos minutos nos marcan el segundo gol, más tarde,en una
+     jugada nos marcan el tercer gol y seguido el cuarto. En una jugada
+    nuestra, Iker marca un gran gol finalizando así el partido. CPLV 4 Fénix
+     1 . Fénix ,fénix,fénix</span></div>
+    <br>
+    <span style="font-family: &quot;verdana&quot; , sans-serif;"><b><i>Crónica: Juan Carlos Martínez</i></b></span><br>
+    <span style="font-family: &quot;verdana&quot; , sans-serif;"><b><i>Foto: Lourdes Gayo</i></b></span><p><b><span style="font-family: &quot;verdana&quot; , sans-serif; font-size: large;"></span></b></p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+      <div class="logos">
+        <span>
+          <a href="https://www.youtube.com/user/FanfenixTV" target="_blank">
+            <img src="../../images/redesSociales/001-youtube.png" alt="logoYoutube">
+          </a>
+        </span>
+        <span>
+          <a href="https://www.instagram.com/fanfenix/" target="_blank">
+            <img src="../../images/redesSociales/029-instagram.png" alt="logoInstagram">
+          </a>
+        </span>
+        <span>
+          <a href="https://twitter.com/Fanfenix" target="_blank">
+            <img src="../../images/redesSociales/008-twitter.png" alt="logoTwitter">
+          </a>
+        </span>
+        <span>
+          <a href="https://www.facebook.com/cplmadrid" target="_blank">
+            <img src="../../images/redesSociales/036-facebook.png" alt="logoFacebook">
+          </a>
+        </span>
+      </div>
+
+      <div class="column">
+        <div class="row">
+          <ul>
+            <li>
+              <a href="../sobreNosotros/contacto.html" >
+                Contacto
+              </a>
+            </li>
+            <li>
+              <a href="../sobreNosotros/club.html" >
+                Nuestro Club
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Pheithar/FanFenix/issues" target="_blank">
+                Reporte de errores
+              </a>
+            </li>
+          </ul>
+        </div>
+
+          <hr>
+
+        <div class="row logoMadrid">
+          <h5>COLABORADORES:</h5>
+          <a href="https://www.madrid.es/" target="_blank">
+            <img src="../../images/logoMadrid.png" alt="logoAyuntamientoMadrid">
+          </a>
+        </div>
+
+
+      <hr>
+
+      <div class="row">
+
+        <!-- Copyright -->
+        <div>© 2019 Copyright:
+          <a href="https://github.com/Pheithar/FanFenix" target="_blank">Github</a>
+        </div>
+        <!-- Copyright -->
+      </div>
+
+    </div>
+
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>

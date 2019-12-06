@@ -1,0 +1,238 @@
+body{
+  background-color: #eeeeee;
+  overflow-x: hidden;
+}
+
+ul{
+  list-style: none;
+  list-style-type: none;
+}
+
+a, a:hover, a:active, a:focus{
+  text-decoration: none !important;
+  color: inherit !important;;
+}
+
+
+header{
+  z-index: 1000;
+  background-color: #ac271d;
+  color: #eeeeee;
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sesion{
+  z-index: 10000;
+  position: absolute;
+  top: 0.5%;
+  right: 1%;
+  margin: 5px;
+  color: #eeeeee;
+}
+
+.sesion:hover{
+  cursor: pointer;
+}
+
+#iniciarSesionPopUp{
+  position: absolute;
+  top: 30px;
+  right: 1%;
+  width: 280px;
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ac271d;
+  color: black;
+  text-align: center;
+  display: none;
+  z-index: 1;
+}
+
+#iniciarSesionPopUp .myButton{
+  background-color: #2e2e2e
+}
+
+#cerrarIniciarSesion{
+  text-decoration: underline;
+}
+
+#cerrarIniciarSesion:hover{
+  cursor: pointer;
+}
+
+/*usado para poner un indicador debajo de ciertos enlaces*/
+.textoSeleccionable{
+  padding-bottom: 10px;
+  border-bottom: 5px solid transparent;
+}
+/*usado para poner un indicador debajo de ciertos enlaces y para hacer la miga de pan*/
+.textoSeleccionable:hover, .opcionElegida{
+  border-bottom: 5px solid #001619;
+}
+
+#logoTitleHeader{
+  padding-top: 5px;
+  position: relative;
+  display: flex;
+  width: auto;
+  background-color: #2e2e2e;
+}
+
+#logoFenixEnlace{
+  width : 10%;
+}
+/*logo normal*/
+#logoFenix{
+  width: 100%;
+  height: auto;
+  transition: 0.4s;
+}
+/*logo cuando se encoge el nav*/
+#logoFenixShrink{
+  display: none;
+  width: 4%;
+  height: auto;
+  transition: 0.4s;
+  float: left;
+}
+
+
+#titleNav{
+  transition: 0.2s;
+  padding-top: 65px;
+  padding-left: 20px;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+  background-color: #ac271d;
+  text-align: center;
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+}
+
+nav ul a{
+  display: block;
+  color: #eeeeee;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px;
+  letter-spacing:1px;
+}
+
+
+/* efecto al pasar el ratón por los items del menu */
+nav ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  padding:0;
+}
+
+/* items del menu desplegable */
+nav ul ul li {
+  float:none;
+  width:150px;
+  text-align: center;
+}
+
+nav ul ul li:hover {
+  background : #eb8a8f;
+}
+
+/* enlaces de los items del menu desplegable */
+
+nav ul ul a {
+  line-height:120%;
+  padding:10px 15px;
+}
+nav ul a:hover{
+  cursor:pointer;
+}
+/* items del menu desplegable al pasar el ratón */
+
+nav ul li:hover > ul {
+  display:block;
+}
+
+main{
+  background-color: #eeeeee;
+  padding-top: 30vh;
+  padding-bottom: 20vh;
+}
+
+/*Para el footer de forma correcta*/
+.column{
+  vertical-align: top;
+  display: inline-block;
+
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*logos para redes*/
+.logos{
+  width: 100%;
+  background: #2e2e2e;
+  text-align: center;
+  margin: 0px;
+  color: #eeeeee;
+}
+
+.logos h4{
+  padding-top: 7px;
+}
+
+.logos img{
+  margin: 7px;
+  width: 20px;
+  height: auto;
+}
+
+footer{
+  background-color: #ac271d;
+  color: white;
+  text-align: center;
+}
+
+footer ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li{
+  background-color: #ac271d;
+  text-align: center;
+  position : relative;
+  float : left;
+  margin : 7px;
+  padding : 0;
+}
+
+/*logo colaborador del club*/
+.logoMadrid{
+  text-align: center;
+}
+
+.logoMadrid img{
+  width: 15em;
+  height: auto;
+}
